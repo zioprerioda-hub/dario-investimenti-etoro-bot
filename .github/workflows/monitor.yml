@@ -36,12 +36,12 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -91,6 +91,7 @@ jobs:
           python -m py_compile report_engine.py
           python -m py_compile run_report_fixed.py
           python -m py_compile run_report_ranges.py
+          python -m py_compile run_report_ranges_fixed.py
           python - <<'PY'
           import base64
           import lzma
@@ -114,10 +115,17 @@ jobs:
               raise SystemExit(f"Corrected report engine validation failed. Missing: {missing_engine}")
 
           ranges = Path("run_report_ranges.py").read_text(encoding="utf-8")
-          range_required = ["Year to date", "Last Year", "Last 2 Years", "Last 3 Years", "Last 5 Years", "All Time", "performanceMetricsByPeriod"]
+          range_required = [
+              "Year to date", "Last Year", "Last 2 Years", "Last 3 Years",
+              "Last 5 Years", "All Time", "performanceMetricsByPeriod"
+          ]
           missing_ranges = [item for item in range_required if item not in ranges]
           if missing_ranges:
               raise SystemExit(f"Performance range validation failed. Missing: {missing_ranges}")
+
+          wrapper = Path("run_report_ranges_fixed.py").read_text(encoding="utf-8")
+          if "_ORIGINAL_DEDUPE_FIX = base._fix_html" not in wrapper:
+              raise SystemExit("Range wrapper does not preserve original dedupe function")
 
           parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
           if len(parts) != 12:
@@ -138,7 +146,7 @@ jobs:
           PY
 
       - name: Send range-aware deduplicated HTML report to Telegram
-        run: python run_report_ranges.py
+        run: python run_report_ranges_fixed.py
 
       - name: Persist monitor and report history
         run: |
