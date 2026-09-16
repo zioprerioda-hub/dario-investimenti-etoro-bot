@@ -2,7 +2,7 @@
 
 ## Stato verificato il 16 settembre 2026
 
-Alle 18:42 UTC il workflow `monitor.yml` era attivo, ma lo storico disponibile conteneva zero esecuzioni con evento `schedule`. Il ripristino ha disattivato e riattivato lo stesso workflow, verificando lo stato finale `active`. Questo intervento da solo non dimostra la ripartenza del timer.
+Alle 18:42 UTC il workflow `monitor.yml` era attivo, ma lo storico disponibile conteneva zero esecuzioni con evento `schedule`. Il ripristino ha disattivato e riattivato lo stesso workflow, verificando lo stato finale `active`. Il controllo delle 18:47:52 UTC, dopo il successivo orario previsto delle 18:47 UTC, mostrava ancora zero esecuzioni programmate. La ripartenza automatica quindi non è confermata.
 
 Il report e l'invio Telegram funzionano negli avvii manuali e su modifica del workflow. La configurazione seguente è pronta per un timer esterno, ma **non è attivata**: richiede un account cron-job.org e un token GitHub dedicato.
 
@@ -46,3 +46,4 @@ Fonti:
 - https://cron-job.org/en/faq/
 - https://docs.github.com/en/rest/actions/workflows#create-a-workflow-dispatch-event
 - https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule
+- https://docs.github.com/en/billing/concepts/product-billing/github-actions
