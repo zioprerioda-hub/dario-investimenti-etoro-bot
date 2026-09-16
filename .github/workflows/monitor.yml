@@ -65,6 +65,49 @@ jobs:
           print(f"Restored {target} from {len(parts)} verified parts ({target.stat().st_size} bytes)")
           PY
 
+      - name: Repair detailed BullAware HTML template
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          patch = Path("template_patch")
+          target = Path("template_parts")
+          for n in (6, 7, 8):
+              pieces = [patch / f"t{n:02d}_0.b64", patch / f"t{n:02d}_1.b64"]
+              if not all(p.exists() for p in pieces):
+                  raise SystemExit(f"Missing template patch for chunk {n:02d}")
+              content = "".join(p.read_text(encoding="ascii").strip() for p in pieces)
+              if len(content) != 10800:
+                  raise SystemExit(f"Invalid template chunk {n:02d}: {len(content)} bytes")
+              (target / f"bullaware_template_{n:02d}.b64").write_text(content, encoding="ascii")
+              print(f"Repaired template chunk {n:02d}")
+          PY
+
+      - name: Validate detailed report assets
+        run: |
+          python -m py_compile report_engine.py
+          python - <<'PY'
+          import base64
+          import lzma
+          from pathlib import Path
+
+          parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
+          if len(parts) != 12:
+              raise SystemExit(f"Expected 12 template chunks, found {len(parts)}")
+          encoded = "".join(p.read_text(encoding="ascii").strip() for p in parts)
+          template = lzma.decompress(base64.b64decode(encoded)).decode("utf-8")
+          required = [
+              'data-tab="overview"', 'data-tab="trades"', 'data-tab="seasonality"',
+              'data-tab="history"', 'data-tab="correlations"', 'data-tab="risk"',
+              'data-tab="activity"', 'data-tab="dividends"', 'data-tab="positions"',
+              'data-tab="copiers"', 'data-tab="feed"', 'const D = '
+          ]
+          missing = [item for item in required if item not in template]
+          if missing:
+              raise SystemExit(f"Detailed template validation failed. Missing: {missing}")
+          print(f"Detailed BullAware template OK: {len(template)} characters")
+          PY
+
       - name: Send detailed HTML report to Telegram
         run: python report_engine.py
 
