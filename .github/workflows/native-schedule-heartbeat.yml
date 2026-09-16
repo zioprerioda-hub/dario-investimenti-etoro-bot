@@ -19,6 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
       - name: Confirm native schedule event
         run: |
           echo "event=$GITHUB_EVENT_NAME"
