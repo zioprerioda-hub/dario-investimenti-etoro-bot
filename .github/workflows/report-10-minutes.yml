@@ -1,15 +1,11 @@
-name: Monitor thomaspj on eToro
+name: Report thomaspj every 10 minutes
+run-name: "${{ github.event_name }} | thomaspj report"
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/monitor.yml"
   schedule:
-    # UTC; GitHub schedules are best-effort and can be delayed or dropped.
-    # A single trigger delivers both the summary and HTML every 10 minutes.
-    - cron: "7-57/10 * * * *"
+    # UTC, one report every ten minutes; avoid the top of the hour.
+    - cron: "6,16,26,36,46,56 * * * *"
 
 permissions:
   contents: write

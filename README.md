@@ -17,7 +17,7 @@ Monitor GitHub Actions che segue il portafoglio pubblico di `thomaspj` tramite e
 
 ## Pianificazione
 
-Il workflow usa un unico cron ai minuti 07, 17, 27, 37, 47 e 57 di ogni ora (UTC). Ogni esecuzione invia sia il riepilogo sia il report HTML. Le modifiche al solo file del workflow avviano anche una verifica immediata; i commit dello stato non avviano altri report.
+Il workflow `.github/workflows/report-10-minutes.yml` usa un unico cron ai minuti 06, 16, 26, 36, 46 e 56 di ogni ora (UTC). Ogni esecuzione invia sia il riepilogo sia il report HTML. Gli avvii automatici sono riconoscibili dal titolo `schedule | thomaspj report`. Il workflow viene eseguito dal timer oppure su richiesta manuale.
 
 GitHub Actions non garantisce puntualità: le esecuzioni programmate possono essere ritardate o saltate. Una run riuscita con evento `push` o `workflow_dispatch` verifica la generazione e l’invio, ma solo una run con evento `schedule` conferma che il timer è partito.
 
@@ -25,7 +25,7 @@ GitHub Actions non garantisce puntualità: le esecuzioni programmate possono ess
 
 Il report non richiede GitHub Pages. Il workflow ricostruisce il motore del report e il template HTML, recupera i dati eToro e invia il file HTML direttamente tramite Telegram.
 
-L'esecuzione manuale da **Actions → Monitor thomaspj on eToro → Run workflow** forza l'invio di un nuovo report HTML anche se non sono ancora trascorsi 10 minuti dall'ultimo invio.
+L'esecuzione manuale da **Actions → Report thomaspj every 10 minutes → Run workflow** forza l'invio di un nuovo report HTML anche se non sono ancora trascorsi 10 minuti dall'ultimo invio.
 
 Le credenziali eToro e Telegram restano nei GitHub Secrets e non vengono inserite nel file HTML.
 
