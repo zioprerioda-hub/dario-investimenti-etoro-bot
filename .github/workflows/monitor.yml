@@ -50,7 +50,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Monitor eToro and build portfolio state
-        run: python monitor.py
+        run: python monitor_slot.py
 
       - name: Restore corrected HTML report engine
         run: |
@@ -89,9 +89,11 @@ jobs:
       - name: Validate detailed report assets and Excel metric formulas
         run: |
           python -m py_compile report_engine.py
+          python -m py_compile monitor_slot.py
           python -m py_compile run_report_fixed.py
           python -m py_compile run_report_ranges.py
           python -m py_compile run_report_ranges_fixed.py
+          python -m py_compile run_report_safe.py
           python -m py_compile excel_metrics.py
           python - <<'PY'
           import base64
@@ -176,9 +178,10 @@ jobs:
           PY
 
       - name: Send Excel-formula range-aware HTML report to Telegram
-        run: python run_report_ranges_fixed.py
+        run: python run_report_safe.py
 
       - name: Persist monitor and report history
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
