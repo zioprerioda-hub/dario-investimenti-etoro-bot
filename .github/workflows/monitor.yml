@@ -30,7 +30,7 @@ jobs:
       REPORT_URL: ""
       REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
-      RISK_FREE_ANNUAL: "0.02"
+      RISK_FREE_ANNUAL: "0"
       TREEMAP_HISTORY_HOURS: "12"
       TREEMAP_HISTORY_LIMIT: "20"
 
@@ -89,6 +89,7 @@ jobs:
       - name: Validate detailed report assets
         run: |
           python -m py_compile report_engine.py
+          python -m py_compile run_report_fixed.py
           python - <<'PY'
           import base64
           import lzma
@@ -129,8 +130,8 @@ jobs:
           print(f"Detailed BullAware template OK: {len(template)} characters")
           PY
 
-      - name: Send detailed HTML report to Telegram
-        run: python report_engine.py
+      - name: Send deduplicated detailed HTML report to Telegram
+        run: python run_report_fixed.py
 
       - name: Persist monitor and report history
         run: |
