@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generatedAt": null,
+  "username": "thomaspj",
+  "portfolioEur": 5000,
+  "refresh": {"githubActionsMinutes": 5, "browserPollSeconds": 30},
+  "summary": {"positionCount": 0, "instrumentCount": 0, "allocatedPct": 0, "allocatedEur": 0, "residualEur": 5000},
+  "allocations": [],
+  "positions": [],
+  "changes": {"newPositionIds": [], "closedPositionIds": []},
+  "source": {"provider": "eToro Public API", "portfolioEndpoint": "/user-info/people/thomaspj/portfolio/live"}
+}
