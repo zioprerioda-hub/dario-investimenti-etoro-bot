@@ -30,6 +30,9 @@ jobs:
       REPORT_URL: ""
       REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
+      RISK_FREE_ANNUAL: "0.02"
+      TREEMAP_HISTORY_HOURS: "12"
+      TREEMAP_HISTORY_LIMIT: "20"
 
     steps:
       - name: Checkout
@@ -49,7 +52,7 @@ jobs:
       - name: Monitor eToro and build portfolio state
         run: python monitor.py
 
-      - name: Restore detailed HTML report engine
+      - name: Restore corrected HTML report engine
         run: |
           python - <<'PY'
           import base64
@@ -57,8 +60,8 @@ jobs:
           from pathlib import Path
 
           parts = sorted(Path("report_engine_parts").glob("part_*.b64"))
-          if len(parts) != 5:
-              raise SystemExit(f"Expected 5 report engine parts, found {len(parts)}")
+          if len(parts) != 7:
+              raise SystemExit(f"Expected 7 report engine parts, found {len(parts)}")
           encoded = "".join(p.read_text(encoding="ascii").strip() for p in parts)
           target = Path("report_engine.py")
           target.write_bytes(lzma.decompress(base64.b64decode(encoded)))
@@ -91,6 +94,23 @@ jobs:
           import lzma
           from pathlib import Path
 
+          source = Path("report_engine.py").read_text(encoding="utf-8")
+          engine_required = [
+              "def performance_metrics(",
+              "RISK_FREE_ANNUAL",
+              "TREEMAP_HISTORY_HOURS",
+              "TREEMAP_HISTORY_LIMIT",
+              "treemap_market_snapshot",
+              "TREEMAP_TIME_LABELS",
+              "TREEMAP_SIZE_LABELS",
+              "Unrealized Returns",
+              "Weighted Change",
+              "P/E Ratio",
+          ]
+          missing_engine = [item for item in engine_required if item not in source]
+          if missing_engine:
+              raise SystemExit(f"Corrected report engine validation failed. Missing: {missing_engine}")
+
           parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
           if len(parts) != 12:
               raise SystemExit(f"Expected 12 template chunks, found {len(parts)}")
@@ -105,6 +125,7 @@ jobs:
           missing = [item for item in required if item not in template]
           if missing:
               raise SystemExit(f"Detailed template validation failed. Missing: {missing}")
+          print(f"Corrected report engine OK: {len(source)} characters")
           print(f"Detailed BullAware template OK: {len(template)} characters")
           PY
 
