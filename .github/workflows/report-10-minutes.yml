@@ -1,4 +1,5 @@
 name: Report thomaspj every 10 minutes
+# Self-test: push changes to this workflow start a run on the current main version.
 run-name: "${{ github.event_name }} | thomaspj report"
 
 on:
