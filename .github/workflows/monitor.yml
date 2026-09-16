@@ -3,7 +3,10 @@ name: Monitor thomaspj on eToro
 on:
   workflow_dispatch:
   schedule:
-    - cron: "2-57/5 * * * *"
+    # Full Telegram HTML report + portfolio summary every 10 minutes.
+    - cron: "0,10,20,30,40,50 * * * *"
+    # Lightweight intermediate portfolio check, so buy/sell detection remains ~5 min.
+    - cron: "5,15,25,35,45,55 * * * *"
 
 permissions:
   contents: write
@@ -26,7 +29,8 @@ jobs:
       MIN_ALERT_EUR: ${{ vars.MIN_ALERT_EUR || '5' }}
       PORTFOLIO_SUMMARY_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
       HTML_REPORT_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
-      FORCE_HTML_REPORT: ${{ github.event_name == 'workflow_dispatch' }}
+      FORCE_HTML_REPORT: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '0,10,20,30,40,50 * * * *' }}
+      FORCE_PORTFOLIO_SUMMARY: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '0,10,20,30,40,50 * * * *' }}
       REPORT_URL: ""
       REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
@@ -49,136 +53,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Monitor eToro and build portfolio state
-        run: python monitor_slot.py
-
-      - name: Restore corrected HTML report engine
+      - name: Show scheduler mode
         run: |
-          python - <<'PY'
-          import base64
-          import lzma
-          from pathlib import Path
+          echo "event=${{ github.event_name }}"
+          echo "schedule=${{ github.event.schedule }}"
+          echo "FORCE_HTML_REPORT=$FORCE_HTML_REPORT"
+          echo "FORCE_PORTFOLIO_SUMMARY=$FORCE_PORTFOLIO_SUMMARY"
 
-          parts = sorted(Path("report_engine_parts").glob("part_*.b64"))
-          if len(parts) != 7:
-              raise SystemExit(f"Expected 7 report engine parts, found {len(parts)}")
-          encoded = "".join(p.read_text(encoding="ascii").strip() for p in parts)
-          target = Path("report_engine.py")
-          target.write_bytes(lzma.decompress(base64.b64decode(encoded)))
-          print(f"Restored {target} from {len(parts)} verified parts ({target.stat().st_size} bytes)")
-          PY
-
-      - name: Repair detailed BullAware HTML template
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-
-          patch = Path("template_patch")
-          target = Path("template_parts")
-          for n in (6, 7, 8):
-              pieces = [patch / f"t{n:02d}_0.b64", patch / f"t{n:02d}_1.b64"]
-              if not all(p.exists() for p in pieces):
-                  raise SystemExit(f"Missing template patch for chunk {n:02d}")
-              content = "".join(p.read_text(encoding="ascii").strip() for p in pieces)
-              if len(content) != 10800:
-                  raise SystemExit(f"Invalid template chunk {n:02d}: {len(content)} bytes")
-              (target / f"bullaware_template_{n:02d}.b64").write_text(content, encoding="ascii")
-              print(f"Repaired template chunk {n:02d}")
-          PY
-
-      - name: Validate detailed report assets and Excel metric formulas
-        run: |
-          python -m py_compile report_engine.py
-          python -m py_compile monitor_slot.py
-          python -m py_compile run_report_fixed.py
-          python -m py_compile run_report_ranges.py
-          python -m py_compile run_report_ranges_fixed.py
-          python -m py_compile run_report_safe.py
-          python -m py_compile excel_metrics.py
-          python - <<'PY'
-          import base64
-          import lzma
-          from pathlib import Path
-
-          source = Path("report_engine.py").read_text(encoding="utf-8")
-          engine_required = [
-              "def performance_metrics(",
-              "RISK_FREE_ANNUAL",
-              "TREEMAP_HISTORY_HOURS",
-              "TREEMAP_HISTORY_LIMIT",
-              "treemap_market_snapshot",
-              "TREEMAP_TIME_LABELS",
-              "TREEMAP_SIZE_LABELS",
-              "Unrealized Returns",
-              "Weighted Change",
-              "P/E Ratio",
-          ]
-          missing_engine = [item for item in engine_required if item not in source]
-          if missing_engine:
-              raise SystemExit(f"Corrected report engine validation failed. Missing: {missing_engine}")
-
-          ranges = Path("run_report_ranges.py").read_text(encoding="utf-8")
-          range_required = [
-              "Year to date", "Last Year", "Last 2 Years", "Last 3 Years",
-              "Last 5 Years", "All Time"
-          ]
-          missing_ranges = [item for item in range_required if item not in ranges]
-          if missing_ranges:
-              raise SystemExit(f"Performance range UI validation failed. Missing: {missing_ranges}")
-
-          excel = Path("excel_metrics.py").read_text(encoding="utf-8")
-          excel_required = [
-              "TRADING_DAYS = 252.0",
-              "statistics.stdev",
-              "_covariance_p",
-              "_variance_p",
-              "risk_free_annual",
-              "downside",
-              "omega_num",
-              "omega_den",
-              "jensen_decimal",
-              "treynor",
-              "information",
-              "_max_drawdown",
-              "calmar",
-              "daily-gain",
-              "Yahoo ^GSPC daily",
-          ]
-          missing_excel = [item for item in excel_required if item not in excel]
-          if missing_excel:
-              raise SystemExit(f"Excel metric engine validation failed. Missing: {missing_excel}")
-
-          wrapper = Path("run_report_ranges_fixed.py").read_text(encoding="utf-8")
-          wrapper_required = [
-              "_ORIGINAL_DEDUPE_FIX = base._fix_html",
-              "excel_metrics.period_metrics(data)",
-              'data["performanceMetricsMeta"]',
-          ]
-          missing_wrapper = [item for item in wrapper_required if item not in wrapper]
-          if missing_wrapper:
-              raise SystemExit(f"Range wrapper validation failed. Missing: {missing_wrapper}")
-
-          parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
-          if len(parts) != 12:
-              raise SystemExit(f"Expected 12 template chunks, found {len(parts)}")
-          encoded = "".join(p.read_text(encoding="ascii").strip() for p in parts)
-          template = lzma.decompress(base64.b64decode(encoded)).decode("utf-8")
-          required = [
-              'data-tab="overview"', 'data-tab="trades"', 'data-tab="seasonality"',
-              'data-tab="history"', 'data-tab="correlations"', 'data-tab="risk"',
-              'data-tab="activity"', 'data-tab="dividends"', 'data-tab="positions"',
-              'data-tab="copiersTab"', 'data-tab="feed"', 'const D = '
-          ]
-          missing = [item for item in required if item not in template]
-          if missing:
-              raise SystemExit(f"Detailed template validation failed. Missing: {missing}")
-          print(f"Corrected report engine OK: {len(source)} characters")
-          print(f"Excel formula metric engine OK: {len(excel)} characters")
-          print(f"Detailed BullAware template OK: {len(template)} characters")
-          PY
-
-      - name: Send Excel-formula range-aware HTML report to Telegram
-        run: python run_report_safe.py
+      - name: Monitor eToro and deliver report when scheduled
+        run: python scheduled_runner.py
 
       - name: Persist monitor and report history
         if: always()
