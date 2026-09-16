@@ -1,0 +1,8 @@
+.git/
+.github/
+.venv/
+.python_packages/
+__pycache__/
+local.settings.json
+native-schedule-last.txt
+*.pyc
