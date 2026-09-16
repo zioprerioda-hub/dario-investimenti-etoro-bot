@@ -1,13 +1,13 @@
 {
   "initialized": true,
-  "last_portfolio_summary_at": "2026-09-16T18:13:40+00:00",
+  "last_portfolio_summary_at": "2026-09-16T18:28:00+00:00",
   "positions": {
     "3396900617": {
       "instrumentId": 1023,
       "investmentPct": 0.70131,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.799,
+      "netProfit": 12.786,
       "openRate": 311.1993,
       "openTimestamp": "2026-04-09T19:47:04.077Z",
       "positionId": 3396900617
@@ -17,7 +17,7 @@
       "investmentPct": 0.70131,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 10.415,
+      "netProfit": 10.263,
       "openRate": 52.8099,
       "openTimestamp": "2026-04-09T19:47:24.757Z",
       "positionId": 3396930359
@@ -27,7 +27,7 @@
       "investmentPct": 0.700896,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 10.521208,
+      "netProfit": 10.370118,
       "openRate": 52.7589,
       "openTimestamp": "2026-04-09T19:49:39.627Z",
       "positionId": 3397032344
@@ -37,7 +37,7 @@
       "investmentPct": 0.701197,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.926068,
+      "netProfit": 12.913066,
       "openRate": 310.85,
       "openTimestamp": "2026-04-09T19:50:29.58Z",
       "positionId": 3397094991
@@ -47,7 +47,7 @@
       "investmentPct": 0.280517,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 10.480262,
+      "netProfit": 10.327758,
       "openRate": 52.7785,
       "openTimestamp": "2026-04-09T19:50:43.987Z",
       "positionId": 3397122119
@@ -57,7 +57,7 @@
       "investmentPct": 0.280433,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.914197,
+      "netProfit": 12.901693,
       "openRate": 310.8799,
       "openTimestamp": "2026-04-09T19:52:10.883Z",
       "positionId": 3397185285
@@ -67,7 +67,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.32875,
+      "netProfit": 12.175,
       "openRate": 51.91,
       "openTimestamp": "2026-04-13T13:35:24.127Z",
       "positionId": 3400675055
@@ -77,7 +77,7 @@
       "investmentPct": 0.561041,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 13.058913,
+      "netProfit": 13.045163,
       "openRate": 310.4853,
       "openTimestamp": "2026-04-13T16:33:11.43Z",
       "positionId": 3401067820
@@ -87,7 +87,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 13.035,
+      "netProfit": 13.0225,
       "openRate": 310.55,
       "openTimestamp": "2026-04-13T16:33:13.693Z",
       "positionId": 3401072244
@@ -97,7 +97,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 10.3525,
+      "netProfit": 10.20125,
       "openRate": 52.8396,
       "openTimestamp": "2026-04-13T16:33:44.59Z",
       "positionId": 3401136739
@@ -107,7 +107,7 @@
       "investmentPct": 0.560739,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.711992,
+      "netProfit": 12.699485,
       "openRate": 311.44,
       "openTimestamp": "2026-06-05T19:15:18.79Z",
       "positionId": 3469499066
@@ -117,7 +117,7 @@
       "investmentPct": 0.560627,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 8.686515,
+      "netProfit": 8.536402,
       "openRate": 53.65,
       "openTimestamp": "2026-06-05T19:15:22.14Z",
       "positionId": 3469506723
@@ -127,7 +127,7 @@
       "investmentPct": 0.560823,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.756353,
+      "netProfit": 12.743848,
       "openRate": 311.317,
       "openTimestamp": "2026-06-05T19:17:37.013Z",
       "positionId": 3469698696
@@ -137,7 +137,7 @@
       "investmentPct": 0.560942,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 8.706632,
+      "netProfit": 8.556604,
       "openRate": 53.64,
       "openTimestamp": "2026-06-05T19:17:39.813Z",
       "positionId": 3469705588
@@ -147,7 +147,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.645,
+      "netProfit": 12.6325,
       "openRate": 311.6255,
       "openTimestamp": "2026-06-05T19:18:57.623Z",
       "positionId": 3469826758
@@ -157,7 +157,7 @@
       "investmentPct": 0.561034,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 8.627716,
+      "netProfit": 8.478962,
       "openRate": 53.6789,
       "openTimestamp": "2026-06-05T19:19:39.7Z",
       "positionId": 3469882776
@@ -167,7 +167,7 @@
       "investmentPct": 0.56083,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.682414,
+      "netProfit": 12.66991,
       "openRate": 311.52,
       "openTimestamp": "2026-06-05T19:19:50.283Z",
       "positionId": 3469906949
@@ -177,7 +177,7 @@
       "investmentPct": 0.560851,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 12.723203,
+      "netProfit": 12.709448,
       "openRate": 311.4099,
       "openTimestamp": "2026-06-05T19:20:18.607Z",
       "positionId": 3469974881
@@ -187,7 +187,7 @@
       "investmentPct": 0.560914,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 8.670809,
+      "netProfit": 8.522024,
       "openRate": 53.6572,
       "openTimestamp": "2026-06-05T19:20:27.177Z",
       "positionId": 3469997575
@@ -197,7 +197,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 8.6325,
+      "netProfit": 8.48375,
       "openRate": 53.6765,
       "openTimestamp": "2026-06-05T19:21:02.453Z",
       "positionId": 3470077043
@@ -207,7 +207,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.86625,
+      "netProfit": 5.591875,
       "openRate": 204.135,
       "openTimestamp": "2026-06-09T17:28:14.273Z",
       "positionId": 3475037533
@@ -217,7 +217,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.863125,
+      "netProfit": 1.71125,
       "openRate": 243.3945,
       "openTimestamp": "2026-06-09T17:28:34.047Z",
       "positionId": 3475068415
@@ -227,7 +227,7 @@
       "investmentPct": 1.121506,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.882463,
+      "netProfit": 5.608569,
       "openRate": 204.1032,
       "openTimestamp": "2026-06-09T17:29:08.287Z",
       "positionId": 3475099767
@@ -237,7 +237,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.79625,
+      "netProfit": 1.644375,
       "openRate": 243.5554,
       "openTimestamp": "2026-06-09T17:29:18.917Z",
       "positionId": 3475130867
@@ -247,7 +247,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.1925,
+      "netProfit": 2.49125,
       "openRate": 900.61,
       "openTimestamp": "2026-06-09T17:31:42.767Z",
       "positionId": 3475315911
@@ -257,7 +257,7 @@
       "investmentPct": 0.560767,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.312406,
+      "netProfit": 1.618309,
       "openRate": 908.35,
       "openTimestamp": "2026-06-09T17:38:38.19Z",
       "positionId": 3475353895
@@ -267,7 +267,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.275,
+      "netProfit": 1.58,
       "openRate": 908.6891,
       "openTimestamp": "2026-06-09T17:38:47.68Z",
       "positionId": 3475383751
@@ -277,7 +277,7 @@
       "investmentPct": 0.560879,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.428529,
+      "netProfit": 2.725818,
       "openRate": 898.5579,
       "openTimestamp": "2026-06-10T18:32:17.403Z",
       "positionId": 3476757739
@@ -287,7 +287,7 @@
       "investmentPct": 0.560213,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.507718,
+      "netProfit": 2.805423,
       "openRate": 897.86,
       "openTimestamp": "2026-06-10T18:32:30.34Z",
       "positionId": 3476787882
@@ -297,7 +297,7 @@
       "investmentPct": 0.561013,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.497719,
+      "netProfit": 2.795175,
       "openRate": 897.95,
       "openTimestamp": "2026-06-10T18:33:21.383Z",
       "positionId": 3476818570
@@ -307,7 +307,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 6.8075,
+      "netProfit": 6.530625,
       "openRate": 202.3358,
       "openTimestamp": "2026-06-10T18:33:31.633Z",
       "positionId": 3476848364
@@ -317,7 +317,7 @@
       "investmentPct": 1.121485,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 6.863107,
+      "netProfit": 6.586707,
       "openRate": 202.2303,
       "openTimestamp": "2026-06-10T18:34:07.603Z",
       "positionId": 3476879273
@@ -327,7 +327,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.5125,
+      "netProfit": 2.80875,
       "openRate": 897.8272,
       "openTimestamp": "2026-06-10T18:34:17.377Z",
       "positionId": 3476908319
@@ -337,7 +337,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -25.89125,
+      "netProfit": -26.1175,
       "openRate": 229.6749,
       "openTimestamp": "2026-06-11T13:54:07.503Z",
       "positionId": 3478373026
@@ -347,7 +347,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -25.9,
+      "netProfit": -26.1275,
       "openRate": 229.7051,
       "openTimestamp": "2026-06-11T13:54:21.537Z",
       "positionId": 3478404123
@@ -357,7 +357,7 @@
       "investmentPct": 0.560227,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.050286,
+      "netProfit": 0.364283,
       "openRate": 919.7041,
       "openTimestamp": "2026-06-11T13:54:38.77Z",
       "positionId": 3478436285
@@ -367,7 +367,7 @@
       "investmentPct": 0.559982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.104599,
+      "netProfit": 0.418295,
       "openRate": 919.2088,
       "openTimestamp": "2026-06-11T13:54:51.55Z",
       "positionId": 3478469394
@@ -377,7 +377,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.65375,
+      "netProfit": 5.50875,
       "openRate": 55.19,
       "openTimestamp": "2026-06-11T17:51:08.01Z",
       "positionId": 3479209832
@@ -387,7 +387,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 11.79875,
+      "netProfit": 11.78625,
       "openRate": 313.9831,
       "openTimestamp": "2026-06-11T17:51:45.227Z",
       "positionId": 3479262514
@@ -397,7 +397,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.5575,
+      "netProfit": 5.4125,
       "openRate": 55.24,
       "openTimestamp": "2026-06-11T17:52:11.427Z",
       "positionId": 3479330408
@@ -407,7 +407,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 11.68375,
+      "netProfit": 11.67,
       "openRate": 314.3086,
       "openTimestamp": "2026-06-11T17:52:34.717Z",
       "positionId": 3479374809
@@ -417,7 +417,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.79125,
+      "netProfit": -8.4175,
       "openRate": 1007.8824,
       "openTimestamp": "2026-06-12T14:14:09.76Z",
       "positionId": 3480627155
@@ -427,7 +427,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -8.15,
+      "netProfit": -8.77375,
       "openRate": 1011.8188,
       "openTimestamp": "2026-06-12T14:14:23.423Z",
       "positionId": 3480657047
@@ -437,7 +437,7 @@
       "investmentPct": 0.560676,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -15.312645,
+      "netProfit": -15.75919,
       "openRate": 120.6904,
       "openTimestamp": "2026-06-12T14:48:24.927Z",
       "positionId": 3480973816
@@ -447,7 +447,7 @@
       "investmentPct": 0.560255,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -15.20022,
+      "netProfit": -15.647102,
       "openRate": 120.53,
       "openTimestamp": "2026-06-12T14:48:48.143Z",
       "positionId": 3481005854
@@ -457,7 +457,7 @@
       "investmentPct": 0.560199,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -15.196735,
+      "netProfit": -15.644913,
       "openRate": 120.5267,
       "openTimestamp": "2026-06-12T14:48:51.367Z",
       "positionId": 3481015530
@@ -467,7 +467,7 @@
       "investmentPct": 0.222077,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.147793,
+      "netProfit": -20.570959,
       "openRate": 127.9992,
       "openTimestamp": "2026-06-15T18:19:12.79Z",
       "positionId": 3483405510
@@ -477,7 +477,7 @@
       "investmentPct": 0.560949,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.122271,
+      "netProfit": -20.543595,
       "openRate": 127.9576,
       "openTimestamp": "2026-06-15T18:19:36.913Z",
       "positionId": 3483435922
@@ -487,7 +487,7 @@
       "investmentPct": 0.560928,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.144281,
+      "netProfit": -20.56562,
       "openRate": 127.9925,
       "openTimestamp": "2026-06-15T18:19:40.843Z",
       "positionId": 3483449638
@@ -497,7 +497,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.1825,
+      "netProfit": -20.60375,
       "openRate": 128.0542,
       "openTimestamp": "2026-06-15T18:19:46.127Z",
       "positionId": 3483471474
@@ -507,7 +507,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.64,
+      "netProfit": 0.49,
       "openRate": 246.3536,
       "openTimestamp": "2026-06-15T18:21:35.613Z",
       "positionId": 3483646973
@@ -517,7 +517,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -14.0225,
+      "netProfit": -14.60625,
       "openRate": 1080.9384,
       "openTimestamp": "2026-06-15T18:30:12.59Z",
       "positionId": 3484033527
@@ -527,7 +527,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.32,
+      "netProfit": -33.52375,
       "openRate": 255.2639,
       "openTimestamp": "2026-06-15T18:32:10.347Z",
       "positionId": 3484094886
@@ -537,7 +537,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.235,
+      "netProfit": -33.43875,
       "openRate": 254.9391,
       "openTimestamp": "2026-06-15T18:32:32.937Z",
       "positionId": 3484124929
@@ -547,7 +547,7 @@
       "investmentPct": 0.560613,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.242013,
+      "netProfit": -33.445921,
       "openRate": 254.9636,
       "openTimestamp": "2026-06-15T18:32:33.33Z",
       "positionId": 3484124930
@@ -557,7 +557,7 @@
       "investmentPct": 0.559919,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.218101,
+      "netProfit": -33.422262,
       "openRate": 254.875,
       "openTimestamp": "2026-06-15T18:32:40.693Z",
       "positionId": 3484153604
@@ -567,7 +567,7 @@
       "investmentPct": 0.448838,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.49375,
+      "netProfit": -33.696875,
       "openRate": 255.9306,
       "openTimestamp": "2026-06-18T13:52:05.31Z",
       "positionId": 3487201848
@@ -577,7 +577,7 @@
       "investmentPct": 0.448838,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -33.479688,
+      "netProfit": -33.682812,
       "openRate": 255.8758,
       "openTimestamp": "2026-06-18T13:53:04.283Z",
       "positionId": 3487369680
@@ -587,7 +587,7 @@
       "investmentPct": 0.560416,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -16.075585,
+      "netProfit": -16.646227,
       "openRate": 1107.3799,
       "openTimestamp": "2026-06-18T13:53:25.4Z",
       "positionId": 3487413576
@@ -597,7 +597,7 @@
       "investmentPct": 0.559876,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.621735,
+      "netProfit": -6.482282,
       "openRate": 553.6099,
       "openTimestamp": "2026-06-22T14:06:39.793Z",
       "positionId": 3489722921
@@ -607,7 +607,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.63875,
+      "netProfit": -6.5,
       "openRate": 553.7131,
       "openTimestamp": "2026-06-22T14:07:10.27Z",
       "positionId": 3489774420
@@ -617,7 +617,7 @@
       "investmentPct": 0.560872,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.624258,
+      "netProfit": -6.485777,
       "openRate": 553.625,
       "openTimestamp": "2026-06-22T14:07:42.233Z",
       "positionId": 3489835514
@@ -627,7 +627,7 @@
       "investmentPct": 0.560907,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.630158,
+      "netProfit": -6.491623,
       "openRate": 553.6599,
       "openTimestamp": "2026-06-22T14:07:58.777Z",
       "positionId": 3489887065
@@ -637,7 +637,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.09125,
+      "netProfit": -4.9675,
       "openRate": 544.7808,
       "openTimestamp": "2026-06-22T19:23:28.747Z",
       "positionId": 3490942457
@@ -647,7 +647,7 @@
       "investmentPct": 0.560669,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.995197,
+      "netProfit": -4.870788,
       "openRate": 544.2299,
       "openTimestamp": "2026-06-22T19:23:47.77Z",
       "positionId": 3490972173
@@ -657,7 +657,7 @@
       "investmentPct": 0.560311,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.980224,
+      "netProfit": -4.856374,
       "openRate": 544.148,
       "openTimestamp": "2026-06-22T19:23:51.903Z",
       "positionId": 3490985080
@@ -667,7 +667,7 @@
       "investmentPct": 0.560438,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.98183,
+      "netProfit": -4.859034,
       "openRate": 544.16,
       "openTimestamp": "2026-06-22T19:23:52.363Z",
       "positionId": 3490986841
@@ -677,7 +677,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -2.5875,
+      "netProfit": -3.4775,
       "openRate": 536.3669,
       "openTimestamp": "2026-06-23T03:51:08.933Z",
       "positionId": 3491499266
@@ -687,7 +687,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.1175,
+      "netProfit": -4.0,
       "openRate": 539.2987,
       "openTimestamp": "2026-06-23T03:51:28.073Z",
       "positionId": 3491524595
@@ -697,7 +697,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.2475,
+      "netProfit": -4.1325,
       "openRate": 540.0341,
       "openTimestamp": "2026-06-23T03:51:30.153Z",
       "positionId": 3491531032
@@ -707,7 +707,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.355,
+      "netProfit": -4.2375,
       "openRate": 540.6348,
       "openTimestamp": "2026-06-23T03:52:35.637Z",
       "positionId": 3491575342
@@ -717,7 +717,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.29625,
+      "netProfit": -1.20625,
       "openRate": 524.043,
       "openTimestamp": "2026-06-23T13:53:46.72Z",
       "positionId": 3492254500
@@ -727,7 +727,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.30875,
+      "netProfit": -1.21875,
       "openRate": 524.1099,
       "openTimestamp": "2026-06-23T13:53:47.78Z",
       "positionId": 3492255879
@@ -737,7 +737,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.94125,
+      "netProfit": 0.01875,
       "openRate": 517.6199,
       "openTimestamp": "2026-06-24T19:55:29.49Z",
       "positionId": 3494356405
@@ -747,7 +747,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.92875,
+      "netProfit": 0.0075,
       "openRate": 517.6799,
       "openTimestamp": "2026-06-24T19:55:30.75Z",
       "positionId": 3494358055
@@ -757,7 +757,7 @@
       "investmentPct": 0.560655,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.823226,
+      "netProfit": 2.761933,
       "openRate": 1422.4,
       "openTimestamp": "2026-06-26T07:42:40.967Z",
       "positionId": 3497622360
@@ -767,7 +767,7 @@
       "investmentPct": 0.280503,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.830212,
+      "netProfit": 2.770208,
       "openRate": 1422.4,
       "openTimestamp": "2026-06-26T07:42:55.347Z",
       "positionId": 3497651661
@@ -777,7 +777,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.7625,
+      "netProfit": 2.7,
       "openRate": 1423.3432,
       "openTimestamp": "2026-06-26T07:43:09.993Z",
       "positionId": 3497677053
@@ -787,7 +787,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.6725,
+      "netProfit": 2.61,
       "openRate": 1424.4851,
       "openTimestamp": "2026-06-26T07:43:41.937Z",
       "positionId": 3497702738
@@ -797,7 +797,7 @@
       "investmentPct": 0.280447,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.765761,
+      "netProfit": 2.703243,
       "openRate": 1423.2,
       "openTimestamp": "2026-06-26T07:43:52.527Z",
       "positionId": 3497725398
@@ -807,7 +807,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.695,
+      "netProfit": 2.635,
       "openRate": 1424.2634,
       "openTimestamp": "2026-06-26T07:44:14.25Z",
       "positionId": 3497753139
@@ -817,7 +817,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.6725,
+      "netProfit": 2.61,
       "openRate": 1424.5931,
       "openTimestamp": "2026-06-26T07:44:19.593Z",
       "positionId": 3497769669
@@ -827,7 +827,7 @@
       "investmentPct": 0.280454,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.76069,
+      "netProfit": 2.700675,
       "openRate": 1423.4705,
       "openTimestamp": "2026-06-26T07:44:23.763Z",
       "positionId": 3497783251
@@ -837,7 +837,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.7225,
+      "netProfit": 2.6625,
       "openRate": 1424.0,
       "openTimestamp": "2026-06-26T07:44:34.217Z",
       "positionId": 3497812978
@@ -847,7 +847,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.7325,
+      "netProfit": 3.67,
       "openRate": 1409.93,
       "openTimestamp": "2026-06-26T15:20:07.843Z",
       "positionId": 3498518693
@@ -857,7 +857,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.645,
+      "netProfit": 3.5825,
       "openRate": 1411.0239,
       "openTimestamp": "2026-06-26T15:20:12Z",
       "positionId": 3498523800
@@ -867,7 +867,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.595,
+      "netProfit": 3.5325,
       "openRate": 1411.7,
       "openTimestamp": "2026-06-26T15:20:21.497Z",
       "positionId": 3498549765
@@ -877,7 +877,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.68,
+      "netProfit": 3.6175,
       "openRate": 1410.5378,
       "openTimestamp": "2026-06-26T15:20:34.38Z",
       "positionId": 3498580592
@@ -887,7 +887,7 @@
       "investmentPct": 0.280243,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.688689,
+      "netProfit": 3.628629,
       "openRate": 1410.4,
       "openTimestamp": "2026-06-26T15:20:37.473Z",
       "positionId": 3498586579
@@ -897,7 +897,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.6825,
+      "netProfit": 3.62,
       "openRate": 1410.4,
       "openTimestamp": "2026-06-26T15:20:58.12Z",
       "positionId": 3498625782
@@ -907,7 +907,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.5925,
+      "netProfit": 3.53,
       "openRate": 1411.6306,
       "openTimestamp": "2026-06-26T15:21:03.767Z",
       "positionId": 3498639870
@@ -917,7 +917,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 3.57,
+      "netProfit": 3.5075,
       "openRate": 1411.8113,
       "openTimestamp": "2026-06-26T15:21:10.687Z",
       "positionId": 3498658443
@@ -927,7 +927,7 @@
       "investmentPct": 0.560171,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -19.977465,
+      "netProfit": -20.520814,
       "openRate": 1161.3699,
       "openTimestamp": "2026-06-26T15:27:19.74Z",
       "positionId": 3498785892
@@ -937,7 +937,7 @@
       "investmentPct": 0.560557,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.041286,
+      "netProfit": -20.584261,
       "openRate": 1162.3094,
       "openTimestamp": "2026-06-26T15:27:33.697Z",
       "positionId": 3498811118
@@ -947,7 +947,7 @@
       "investmentPct": 0.561048,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.06875,
+      "netProfit": -20.61125,
       "openRate": 1162.7019,
       "openTimestamp": "2026-06-26T15:27:34.92Z",
       "positionId": 3498812605
@@ -957,7 +957,7 @@
       "investmentPct": 0.560739,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -20.01851,
+      "netProfit": -20.562559,
       "openRate": 1161.9762,
       "openTimestamp": "2026-06-26T15:28:25.36Z",
       "positionId": 3498875086
@@ -967,7 +967,7 @@
       "investmentPct": 0.420786,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -14.458333,
+      "netProfit": -15.04,
       "openRate": 1086.4499,
       "openTimestamp": "2026-07-01T14:13:59.003Z",
       "positionId": 3503579344
@@ -977,7 +977,7 @@
       "investmentPct": 0.420281,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -14.357229,
+      "netProfit": -14.939594,
       "openRate": 1085.1628,
       "openTimestamp": "2026-07-01T14:14:22.85Z",
       "positionId": 3503599504
@@ -987,7 +987,7 @@
       "investmentPct": 0.490917,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.982857,
+      "netProfit": -6.841429,
       "openRate": 555.7368,
       "openTimestamp": "2026-07-01T14:22:43.437Z",
       "positionId": 3503711107
@@ -997,7 +997,7 @@
       "investmentPct": 0.490917,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.002857,
+      "netProfit": -6.861429,
       "openRate": 555.8599,
       "openTimestamp": "2026-07-01T14:22:49.25Z",
       "positionId": 3503720803
@@ -1007,7 +1007,7 @@
       "investmentPct": 0.422455,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.002855,
+      "netProfit": -6.861118,
       "openRate": 555.8545,
       "openTimestamp": "2026-07-01T14:22:54.087Z",
       "positionId": 3503729686
@@ -1017,7 +1017,7 @@
       "investmentPct": 0.630435,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.651946,
+      "netProfit": 0.723074,
       "openRate": 514.0016,
       "openTimestamp": "2026-07-07T19:57:32.297Z",
       "positionId": 3509526964
@@ -1027,7 +1027,7 @@
       "investmentPct": 1.122095,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.93375,
+      "netProfit": 2.6675,
       "openRate": 209.95,
       "openTimestamp": "2026-07-10T19:24:19.087Z",
       "positionId": 3512907135
@@ -1037,7 +1037,7 @@
       "investmentPct": 1.07752,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.900862,
+      "netProfit": 2.634011,
       "openRate": 210.0179,
       "openTimestamp": "2026-07-10T19:24:51.353Z",
       "positionId": 3512936548
@@ -1047,7 +1047,7 @@
       "investmentPct": 0.535289,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.364222,
+      "netProfit": -0.622322,
       "openRate": 216.8999,
       "openTimestamp": "2026-08-10T16:38:03.97Z",
       "positionId": 3538895706
@@ -1057,7 +1057,7 @@
       "investmentPct": 0.70131,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.509,
+      "netProfit": -0.767,
       "openRate": 217.215,
       "openTimestamp": "2026-08-10T16:38:28.843Z",
       "positionId": 3538922691
@@ -1067,7 +1067,7 @@
       "investmentPct": 0.77595,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.455519,
+      "netProfit": -0.714008,
       "openRate": 217.0999,
       "openTimestamp": "2026-08-10T16:38:35.277Z",
       "positionId": 3538945766
@@ -1077,7 +1077,7 @@
       "investmentPct": 0.560886,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.48764,
+      "netProfit": -0.745214,
       "openRate": 217.1688,
       "openTimestamp": "2026-08-11T19:51:40.417Z",
       "positionId": 3540630337
@@ -1087,7 +1087,7 @@
       "investmentPct": 0.490601,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.56036,
+      "netProfit": -0.819098,
       "openRate": 217.329,
       "openTimestamp": "2026-08-11T19:52:12.033Z",
       "positionId": 3540657533
@@ -1097,7 +1097,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -8.469333,
+      "netProfit": -8.524,
       "openRate": 1561.1289,
       "openTimestamp": "2026-08-12T10:22:48.68Z",
       "positionId": 3541201451
@@ -1107,7 +1107,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -8.485333,
+      "netProfit": -8.54,
       "openRate": 1561.4,
       "openTimestamp": "2026-08-12T10:22:53.407Z",
       "positionId": 3541220192
@@ -1117,7 +1117,7 @@
       "investmentPct": 0.574969,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -8.462524,
+      "netProfit": -8.516192,
       "openRate": 1561.0,
       "openTimestamp": "2026-08-12T10:23:10.14Z",
       "positionId": 3541255359
@@ -1127,7 +1127,7 @@
       "investmentPct": 0.700805,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.508406,
+      "netProfit": -7.646505,
       "openRate": 268.057,
       "openTimestamp": "2026-08-13T14:26:21.557Z",
       "positionId": 3544310327
@@ -1137,7 +1137,7 @@
       "investmentPct": 0.701225,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.494899,
+      "netProfit": -7.632916,
       "openRate": 268.0175,
       "openTimestamp": "2026-08-13T14:26:56.183Z",
       "positionId": 3544338175
@@ -1147,7 +1147,7 @@
       "investmentPct": 0.70112,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.474018,
+      "netProfit": -7.612055,
       "openRate": 267.9576,
       "openTimestamp": "2026-08-13T14:27:12.893Z",
       "positionId": 3544365667
@@ -1157,7 +1157,7 @@
       "investmentPct": 0.295904,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.484654,
+      "netProfit": -7.622117,
       "openRate": 267.9856,
       "openTimestamp": "2026-08-13T14:27:22.547Z",
       "positionId": 3544391897
@@ -1167,7 +1167,7 @@
       "investmentPct": 0.70131,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.991,
+      "netProfit": -1.037,
       "openRate": 498.66,
       "openTimestamp": "2026-08-13T14:30:58.027Z",
       "positionId": 3544426677
@@ -1177,7 +1177,7 @@
       "investmentPct": 0.701282,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.982039,
+      "netProfit": -1.029041,
       "openRate": 498.619,
       "openTimestamp": "2026-08-13T14:31:32.58Z",
       "positionId": 3544455477
@@ -1187,7 +1187,7 @@
       "investmentPct": 0.17532,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.980039,
+      "netProfit": -1.024041,
       "openRate": 498.5986,
       "openTimestamp": "2026-08-13T14:31:37.433Z",
       "positionId": 3544470191
@@ -1197,7 +1197,7 @@
       "investmentPct": 0.70131,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.798,
+      "netProfit": -1.991,
       "openRate": 176.392,
       "openTimestamp": "2026-08-13T17:56:12.983Z",
       "positionId": 3544754075
@@ -1207,7 +1207,7 @@
       "investmentPct": 0.701176,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.767336,
+      "netProfit": -1.960372,
       "openRate": 176.3364,
       "openTimestamp": "2026-08-13T17:56:43.66Z",
       "positionId": 3544781207
@@ -1217,7 +1217,7 @@
       "investmentPct": 0.170355,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.745502,
+      "netProfit": -1.93899,
       "openRate": 176.3,
       "openTimestamp": "2026-08-13T17:57:09.683Z",
       "positionId": 3544810425
@@ -1227,7 +1227,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.601333,
+      "netProfit": -0.797333,
       "openRate": 174.269,
       "openTimestamp": "2026-08-14T19:55:39.853Z",
       "positionId": 3546123408
@@ -1237,7 +1237,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.322667,
+      "netProfit": -0.369333,
       "openRate": 495.3198,
       "openTimestamp": "2026-08-14T19:55:50.327Z",
       "positionId": 3546149906
@@ -1247,7 +1247,7 @@
       "investmentPct": 0.525772,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.550887,
+      "netProfit": -0.745632,
       "openRate": 174.1797,
       "openTimestamp": "2026-08-14T19:56:03.48Z",
       "positionId": 3546177227
@@ -1257,7 +1257,7 @@
       "investmentPct": 0.525814,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.29076,
+      "netProfit": -0.337441,
       "openRate": 495.1594,
       "openTimestamp": "2026-08-14T19:56:09.627Z",
       "positionId": 3546183783
@@ -1267,7 +1267,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.481333,
+      "netProfit": -0.676,
       "openRate": 174.0574,
       "openTimestamp": "2026-08-14T19:57:46.87Z",
       "positionId": 3546232054
@@ -1277,7 +1277,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.278667,
+      "netProfit": -0.324,
       "openRate": 495.0974,
       "openTimestamp": "2026-08-14T19:57:57.597Z",
       "positionId": 3546258504
@@ -1287,7 +1287,7 @@
       "investmentPct": 0.175327,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.492,
+      "netProfit": -0.688,
       "openRate": 174.0774,
       "openTimestamp": "2026-08-14T19:58:11.113Z",
       "positionId": 3546285308
@@ -1297,7 +1297,7 @@
       "investmentPct": 0.179781,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.269163,
+      "netProfit": -0.315974,
       "openRate": 495.0577,
       "openTimestamp": "2026-08-14T19:58:19.017Z",
       "positionId": 3546308341
@@ -1307,7 +1307,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.7,
+      "netProfit": -4.842667,
       "openRate": 260.1573,
       "openTimestamp": "2026-08-18T19:26:58.553Z",
       "positionId": 3549543245
@@ -1317,7 +1317,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.718667,
+      "netProfit": -4.861333,
       "openRate": 260.21,
       "openTimestamp": "2026-08-18T19:27:12.46Z",
       "positionId": 3549543291
@@ -1327,7 +1327,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.717333,
+      "netProfit": -4.86,
       "openRate": 260.2065,
       "openTimestamp": "2026-08-18T19:27:13.817Z",
       "positionId": 3549543293
@@ -1337,7 +1337,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.609333,
+      "netProfit": 0.412,
       "openRate": 172.1699,
       "openTimestamp": "2026-08-18T19:27:27.373Z",
       "positionId": 3549543338
@@ -1347,7 +1347,7 @@
       "investmentPct": 0.525863,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.609471,
+      "netProfit": 0.412093,
       "openRate": 172.17,
       "openTimestamp": "2026-08-18T19:27:36.087Z",
       "positionId": 3549543367
@@ -1357,7 +1357,7 @@
       "investmentPct": 0.525891,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.168376,
+      "netProfit": 2.121701,
       "openRate": 483.2389,
       "openTimestamp": "2026-08-18T19:27:55.233Z",
       "positionId": 3549581587
@@ -1367,7 +1367,7 @@
       "investmentPct": 0.525828,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.193977,
+      "netProfit": 2.145963,
       "openRate": 483.12,
       "openTimestamp": "2026-08-18T19:28:06.35Z",
       "positionId": 3549619175
@@ -1377,7 +1377,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.396,
+      "netProfit": 0.198667,
       "openRate": 172.5374,
       "openTimestamp": "2026-08-18T19:30:47.303Z",
       "positionId": 3549732014
@@ -1387,7 +1387,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.338667,
+      "netProfit": 0.141333,
       "openRate": 172.6363,
       "openTimestamp": "2026-08-18T19:30:56.59Z",
       "positionId": 3549758355
@@ -1397,7 +1397,7 @@
       "investmentPct": 0.525905,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.098975,
+      "netProfit": 2.052301,
       "openRate": 483.5679,
       "openTimestamp": "2026-08-18T19:31:06.687Z",
       "positionId": 3549784774
@@ -1407,7 +1407,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.317333,
+      "netProfit": 0.12,
       "openRate": 172.6721,
       "openTimestamp": "2026-08-18T19:31:13.243Z",
       "positionId": 3549806596
@@ -1417,7 +1417,7 @@
       "investmentPct": 0.525919,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.08025,
+      "netProfit": 2.032244,
       "openRate": 483.6599,
       "openTimestamp": "2026-08-18T19:31:22.117Z",
       "positionId": 3549836440
@@ -1427,7 +1427,7 @@
       "investmentPct": 0.525835,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 2.095253,
+      "netProfit": 2.048574,
       "openRate": 483.585,
       "openTimestamp": "2026-08-18T19:31:28.89Z",
       "positionId": 3549857369
@@ -1437,7 +1437,7 @@
       "investmentPct": 0.238123,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.650409,
+      "netProfit": -4.791777,
       "openRate": 260.02,
       "openTimestamp": "2026-08-18T19:33:48.253Z",
       "positionId": 3549893749
@@ -1447,7 +1447,7 @@
       "investmentPct": 0.525723,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.435028,
+      "netProfit": -3.624455,
       "openRate": 179.3819,
       "openTimestamp": "2026-08-25T13:49:33.157Z",
       "positionId": 3556265516
@@ -1457,7 +1457,7 @@
       "investmentPct": 0.525744,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.422885,
+      "netProfit": -3.612304,
       "openRate": 179.3591,
       "openTimestamp": "2026-08-25T13:49:36.87Z",
       "positionId": 3556275197
@@ -1467,7 +1467,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.981333,
+      "netProfit": 0.934667,
       "openRate": 488.9199,
       "openTimestamp": "2026-08-25T13:49:57.707Z",
       "positionId": 3556316952
@@ -1477,7 +1477,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 0.968,
+      "netProfit": 0.921333,
       "openRate": 488.9869,
       "openTimestamp": "2026-08-25T13:50:05.497Z",
       "positionId": 3556332113
@@ -1487,7 +1487,7 @@
       "investmentPct": 0.11108,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.554517,
+      "netProfit": -3.743923,
       "openRate": 179.5999,
       "openTimestamp": "2026-08-25T13:50:09.61Z",
       "positionId": 3556345026
@@ -1497,7 +1497,7 @@
       "investmentPct": 0.525639,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.229403,
+      "netProfit": -6.413524,
       "openRate": 184.7286,
       "openTimestamp": "2026-08-27T14:24:22.573Z",
       "positionId": 3560391824
@@ -1507,7 +1507,7 @@
       "investmentPct": 0.490917,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.298571,
+      "netProfit": -6.482857,
       "openRate": 184.8633,
       "openTimestamp": "2026-08-27T14:24:30.81Z",
       "positionId": 3560416304
@@ -1517,7 +1517,7 @@
       "investmentPct": 0.504943,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.411111,
+      "netProfit": -0.422222,
       "openRate": 352.48,
       "openTimestamp": "2026-08-27T14:24:41.363Z",
       "positionId": 3560441411
@@ -1527,7 +1527,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.968,
+      "netProfit": -5.098667,
       "openRate": 61.3582,
       "openTimestamp": "2026-08-27T14:25:02.133Z",
       "positionId": 3560469588
@@ -1537,7 +1537,7 @@
       "investmentPct": 0.379072,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.969289,
+      "netProfit": -5.098794,
       "openRate": 61.3588,
       "openTimestamp": "2026-08-27T14:25:04.11Z",
       "positionId": 3560471368
@@ -1547,7 +1547,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.474667,
+      "netProfit": -0.485333,
       "openRate": 352.7029,
       "openTimestamp": "2026-08-27T14:25:27.297Z",
       "positionId": 3560520681
@@ -1557,7 +1557,7 @@
       "investmentPct": 0.166449,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.195079,
+      "netProfit": 5.127665,
       "openRate": 30.07,
       "openTimestamp": "2026-08-27T15:04:21.507Z",
       "positionId": 3560625233
@@ -1567,7 +1567,7 @@
       "investmentPct": 0.665164,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.235856,
+      "netProfit": 5.168378,
       "openRate": 30.055,
       "openTimestamp": "2026-08-27T15:04:51.557Z",
       "positionId": 3560649183
@@ -1577,7 +1577,7 @@
       "investmentPct": 0.166252,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 5.306673,
+      "netProfit": 5.23918,
       "openRate": 30.035,
       "openTimestamp": "2026-08-27T15:05:59.003Z",
       "positionId": 3560676435
@@ -1587,7 +1587,7 @@
       "investmentPct": 0.525688,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.56501,
+      "netProfit": -6.703754,
       "openRate": 265.35,
       "openTimestamp": "2026-08-28T16:23:37.927Z",
       "positionId": 3561944219
@@ -1597,7 +1597,7 @@
       "investmentPct": 0.525667,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.51591,
+      "netProfit": -6.654659,
       "openRate": 265.2098,
       "openTimestamp": "2026-08-28T16:23:45.827Z",
       "positionId": 3561968685
@@ -1607,7 +1607,7 @@
       "investmentPct": 0.525961,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -6.518927,
+      "netProfit": -6.658933,
       "openRate": 265.22,
       "openTimestamp": "2026-08-28T16:23:54.5Z",
       "positionId": 3561993556
@@ -1617,7 +1617,7 @@
       "investmentPct": 0.525554,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -4.235445,
+      "netProfit": -4.280815,
       "openRate": 515.5588,
       "openTimestamp": "2026-08-28T16:24:05.687Z",
       "positionId": 3562019234
@@ -1627,7 +1627,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.438667,
+      "netProfit": -5.625333,
       "openRate": 183.1836,
       "openTimestamp": "2026-09-03T19:47:25.017Z",
       "positionId": 3567963095
@@ -1637,7 +1637,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.442667,
+      "netProfit": -5.628,
       "openRate": 183.1895,
       "openTimestamp": "2026-09-03T19:47:36.087Z",
       "positionId": 3567988310
@@ -1647,7 +1647,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.325333,
+      "netProfit": -3.369333,
       "openRate": 510.6999,
       "openTimestamp": "2026-09-03T19:47:44.32Z",
       "positionId": 3568012905
@@ -1657,7 +1657,7 @@
       "investmentPct": 0.525877,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.305995,
+      "netProfit": -3.351337,
       "openRate": 510.5999,
       "openTimestamp": "2026-09-03T19:48:09.667Z",
       "positionId": 3568041854
@@ -1667,7 +1667,7 @@
       "investmentPct": 0.280412,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.02621,
+      "netProfit": -3.036214,
       "openRate": 361.9838,
       "openTimestamp": "2026-09-03T19:54:46.03Z",
       "positionId": 3568072708
@@ -1677,7 +1677,7 @@
       "investmentPct": 0.280341,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.517386,
+      "netProfit": -7.644969,
       "openRate": 63.0497,
       "openTimestamp": "2026-09-03T19:55:38.357Z",
       "positionId": 3568099992
@@ -1687,7 +1687,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.4875,
+      "netProfit": -7.615,
       "openRate": 63.0299,
       "openTimestamp": "2026-09-03T19:57:14.653Z",
       "positionId": 3568126856
@@ -1697,7 +1697,7 @@
       "investmentPct": 0.140248,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.525753,
+      "netProfit": -7.650765,
       "openRate": 63.055,
       "openTimestamp": "2026-09-03T19:58:11.197Z",
       "positionId": 3568153278
@@ -1707,7 +1707,7 @@
       "investmentPct": 0.140262,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.065,
+      "netProfit": -3.075,
       "openRate": 362.1292,
       "openTimestamp": "2026-09-03T19:58:24.867Z",
       "positionId": 3568193385
@@ -1717,7 +1717,7 @@
       "investmentPct": 0.140262,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.06,
+      "netProfit": -3.075,
       "openRate": 362.1191,
       "openTimestamp": "2026-09-03T19:59:03.377Z",
       "positionId": 3568224091
@@ -1727,7 +1727,7 @@
       "investmentPct": 0.140255,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.045152,
+      "netProfit": -3.055153,
       "openRate": 362.05,
       "openTimestamp": "2026-09-03T19:59:06.62Z",
       "positionId": 3568234398
@@ -1737,7 +1737,7 @@
       "investmentPct": 0.140206,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.452981,
+      "netProfit": -7.578031,
       "openRate": 63.005,
       "openTimestamp": "2026-09-03T19:59:48.867Z",
       "positionId": 3568268790
@@ -1747,7 +1747,7 @@
       "investmentPct": 0.140262,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.68,
+      "netProfit": -7.805,
       "openRate": 63.1592,
       "openTimestamp": "2026-09-03T20:00:12.103Z",
       "positionId": 3568291071
@@ -1757,7 +1757,7 @@
       "investmentPct": 0.140192,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.246623,
+      "netProfit": -3.256628,
       "openRate": 362.8001,
       "openTimestamp": "2026-09-03T20:00:58.667Z",
       "positionId": 3568313438
@@ -1767,7 +1767,7 @@
       "investmentPct": 0.140171,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.227098,
+      "netProfit": -3.237104,
       "openRate": 362.7266,
       "openTimestamp": "2026-09-03T20:01:35.13Z",
       "positionId": 3568381230
@@ -1777,7 +1777,7 @@
       "investmentPct": 0.140241,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -7.706156,
+      "netProfit": -7.831175,
       "openRate": 63.179,
       "openTimestamp": "2026-09-03T20:02:48.417Z",
       "positionId": 3568403674
@@ -1787,7 +1787,7 @@
       "investmentPct": 0.140241,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -3.275491,
+      "netProfit": -3.285493,
       "openRate": 362.9118,
       "openTimestamp": "2026-09-03T20:03:05.907Z",
       "positionId": 3568425981
@@ -1797,7 +1797,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.62,
+      "netProfit": -5.865,
       "openRate": 228.9799,
       "openTimestamp": "2026-09-03T21:54:58.99Z",
       "positionId": 3568468956
@@ -1807,7 +1807,7 @@
       "investmentPct": 0.280524,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -5.6375,
+      "netProfit": -5.8825,
       "openRate": 229.0213,
       "openTimestamp": "2026-09-03T21:55:17.403Z",
       "positionId": 3568495003
@@ -1817,7 +1817,7 @@
       "investmentPct": 0.525835,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.066685,
+      "netProfit": -0.130703,
       "openRate": 31.785,
       "openTimestamp": "2026-09-04T13:05:01.677Z",
       "positionId": 3568871831
@@ -1827,7 +1827,7 @@
       "investmentPct": 0.525709,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.030683,
+      "netProfit": -0.094716,
       "openRate": 31.775,
       "openTimestamp": "2026-09-04T13:05:11.85Z",
       "positionId": 3568897486
@@ -1837,7 +1837,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.093333,
+      "netProfit": -0.157333,
       "openRate": 31.792,
       "openTimestamp": "2026-09-04T13:05:26.207Z",
       "positionId": 3568924457
@@ -1847,7 +1847,7 @@
       "investmentPct": 0.527357,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.121017,
+      "netProfit": -0.18485,
       "openRate": 31.798,
       "openTimestamp": "2026-09-04T13:05:34.37Z",
       "positionId": 3568949436
@@ -1857,7 +1857,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.196,
+      "netProfit": -0.26,
       "openRate": 31.72,
       "openTimestamp": "2026-09-10T10:05:37.09Z",
       "positionId": 3574312593
@@ -1867,7 +1867,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.234667,
+      "netProfit": -0.298667,
       "openRate": 31.733,
       "openTimestamp": "2026-09-10T10:05:47.027Z",
       "positionId": 3574338602
@@ -1877,7 +1877,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.218667,
+      "netProfit": -0.284,
       "openRate": 31.728,
       "openTimestamp": "2026-09-10T10:06:03.513Z",
       "positionId": 3574365112
@@ -1887,7 +1887,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.230667,
+      "netProfit": -0.294667,
       "openRate": 31.731,
       "openTimestamp": "2026-09-10T10:06:14.997Z",
       "positionId": 3574392838
@@ -1897,7 +1897,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.514667,
+      "netProfit": -0.573333,
       "openRate": 1432.9038,
       "openTimestamp": "2026-09-10T10:06:20.47Z",
       "positionId": 3574413394
@@ -1907,7 +1907,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.536,
+      "netProfit": -0.596,
       "openRate": 1433.2242,
       "openTimestamp": "2026-09-10T10:06:36.17Z",
       "positionId": 3574444869
@@ -1917,7 +1917,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.549333,
+      "netProfit": -0.609333,
       "openRate": 1433.4138,
       "openTimestamp": "2026-09-10T10:06:55.297Z",
       "positionId": 3574470907
@@ -1927,7 +1927,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -0.613333,
+      "netProfit": -0.672,
       "openRate": 1434.3239,
       "openTimestamp": "2026-09-10T10:06:56.747Z",
       "positionId": 3574474364
@@ -1937,7 +1937,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.204,
+      "netProfit": -1.266667,
       "openRate": 32.14,
       "openTimestamp": "2026-09-11T12:59:38.42Z",
       "positionId": 3576228174
@@ -1947,7 +1947,7 @@
       "investmentPct": 0.525975,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.210683,
+      "netProfit": -1.274684,
       "openRate": 32.143,
       "openTimestamp": "2026-09-11T12:59:44.027Z",
       "positionId": 3576248374
@@ -1957,7 +1957,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.234667,
+      "netProfit": -1.297333,
       "openRate": 32.15,
       "openTimestamp": "2026-09-11T12:59:51.767Z",
       "positionId": 3576276006
@@ -1967,7 +1967,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": -1.244,
+      "netProfit": -1.308,
       "openRate": 32.155,
       "openTimestamp": "2026-09-11T13:00:01.56Z",
       "positionId": 3576303755
@@ -1977,7 +1977,7 @@
       "investmentPct": 0.525982,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.262667,
+      "netProfit": 0.337333,
       "openRate": 515.9781,
       "openTimestamp": "2026-09-11T17:40:18.877Z",
       "positionId": 3576906545
@@ -1987,11 +1987,11 @@
       "investmentPct": 0.381814,
       "isBuy": true,
       "leverage": 1,
-      "netProfit": 1.25636,
+      "netProfit": 0.332458,
       "openRate": 516.0058,
       "openTimestamp": "2026-09-11T17:40:19.56Z",
       "positionId": 3576906635
     }
   },
-  "updated_at": "2026-09-16T18:13:40+00:00"
+  "updated_at": "2026-09-16T18:28:00+00:00"
 }
