@@ -2,12 +2,14 @@ name: Monitor thomaspj on eToro
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/monitor.yml"
   schedule:
-    # GitHub schedule is best-effort. Use off-peak minute marks to reduce delay/drop risk.
-    # Full Telegram HTML report + portfolio summary every 10 minutes.
-    - cron: "3,13,23,33,43,53 * * * *"
-    # Lightweight intermediate portfolio check, so buy/sell detection remains ~5 min.
-    - cron: "8,18,28,38,48,58 * * * *"
+    # UTC; GitHub schedules are best-effort and can be delayed or dropped.
+    # A single trigger delivers both the summary and HTML every 10 minutes.
+    - cron: "7-57/10 * * * *"
 
 permissions:
   contents: write
@@ -30,8 +32,8 @@ jobs:
       MIN_ALERT_EUR: ${{ vars.MIN_ALERT_EUR || '5' }}
       PORTFOLIO_SUMMARY_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
       HTML_REPORT_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
-      FORCE_HTML_REPORT: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '3,13,23,33,43,53 * * * *' }}
-      FORCE_PORTFOLIO_SUMMARY: ${{ github.event_name == 'workflow_dispatch' || github.event.schedule == '3,13,23,33,43,53 * * * *' }}
+      FORCE_HTML_REPORT: "true"
+      FORCE_PORTFOLIO_SUMMARY: "true"
       REPORT_URL: ""
       REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
