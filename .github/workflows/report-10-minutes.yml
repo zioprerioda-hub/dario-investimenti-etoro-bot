@@ -48,10 +48,9 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: pip
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install report dependencies
+        run: pip install requests==2.32.5
 
       - name: Show scheduler mode
         run: |
@@ -80,6 +79,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update thomaspj monitor state [skip ci]"
-          # Integrate changes made while the report was running without force-pushing.
           git pull --rebase --autostash origin "${{ github.ref_name }}"
           git push
