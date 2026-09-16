@@ -1,13 +1,8 @@
 name: Report thomaspj every 10 minutes
-# Self-test: push changes to this workflow start a run on the current main version.
 run-name: "${{ github.event_name }} | thomaspj report"
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/report-10-minutes.yml"
   schedule:
     # UTC, one report every ten minutes; avoid the top of the hour.
     - cron: "6,16,26,36,46,56 * * * *"
@@ -68,20 +63,50 @@ jobs:
 
       - name: Persist monitor and report history
         if: always()
+        shell: bash
         run: |
+          set +e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
-          if [ -f html_report_state.json ]; then
-            git add html_report_state.json
+
+          tmpdir="$(mktemp -d)"
+          for f in state.json html_report_state.json dashboard_state.json; do
+            if [ -f "$f" ]; then cp "$f" "$tmpdir/$f"; fi
+          done
+
+          persisted=0
+          for attempt in 1 2 3; do
+            echo "Persistence attempt $attempt"
+            git fetch origin main || true
+            git reset --hard origin/main || true
+
+            for f in state.json html_report_state.json dashboard_state.json; do
+              if [ -f "$tmpdir/$f" ]; then cp "$tmpdir/$f" "$f"; fi
+            done
+
+            git add state.json 2>/dev/null || true
+            [ -f html_report_state.json ] && git add html_report_state.json
+            [ -f dashboard_state.json ] && git add dashboard_state.json
+
+            if git diff --cached --quiet; then
+              echo "No state change to persist"
+              persisted=1
+              break
+            fi
+
+            git commit -m "chore: update thomaspj monitor state [skip ci]" || true
+            if git push origin HEAD:main; then
+              echo "State persisted successfully"
+              persisted=1
+              break
+            fi
+
+            sleep 2
+          done
+
+          if [ "$persisted" -ne 1 ]; then
+            echo "::warning::Report was delivered, but state persistence could not be pushed after 3 attempts."
           fi
-          if [ -f dashboard_state.json ]; then
-            git add dashboard_state.json
-          fi
-          if git diff --cached --quiet; then
-            echo "No state change"
-            exit 0
-          fi
-          git commit -m "chore: update thomaspj monitor state [skip ci]"
-          git pull --rebase --autostash origin "${{ github.ref_name }}"
-          git push
+
+          # Never mark the whole report run failed just because persistence raced with another commit.
+          exit 0
