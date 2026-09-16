@@ -2,6 +2,10 @@ name: Native schedule heartbeat
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/native-schedule-heartbeat.yml"
   schedule:
     # Minimal native GitHub timer test, every five minutes (UTC).
     - cron: "4,9,14,19,24,29,34,39,44,49,54,59 * * * *"
