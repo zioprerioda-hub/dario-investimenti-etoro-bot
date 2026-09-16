@@ -5,7 +5,7 @@ Monitor GitHub Actions che segue il portafoglio pubblico di `thomaspj` tramite e
 ## Cosa fa
 
 - segue `thomaspj` su eToro;
-- controlla il portafoglio pubblico live ogni ~5 minuti tramite GitHub Actions;
+- controlla il portafoglio pubblico live circa ogni 10 minuti tramite GitHub Actions;
 - usa `positionId` per distinguere aperture e chiusure dalle normali variazioni di prezzo;
 - invia su Telegram le variazioni rilevate;
 - calcola l'importo equivalente in euro sul capitale replica configurato;
@@ -14,6 +14,12 @@ Monitor GitHub Actions che segue il portafoglio pubblico di `thomaspj` tramite e
 - mantiene la dashboard HTML dettagliata in stile BullAware con le sezioni Overview, Trades, Seasonality, History, Correlations, Risk, Activity, Dividends, Positions, Copiers e Feed Analytics;
 - alimenta il report con i dati eToro disponibili e con lo storico accumulato dal monitor;
 - salva lo stato del monitor in `state.json` e lo storico necessario al report in `dashboard_state.json`.
+
+## Pianificazione
+
+Il workflow usa un unico cron ai minuti 07, 17, 27, 37, 47 e 57 di ogni ora (UTC). Ogni esecuzione invia sia il riepilogo sia il report HTML. Le modifiche al solo file del workflow avviano anche una verifica immediata; i commit dello stato non avviano altri report.
+
+GitHub Actions non garantisce puntualità: le esecuzioni programmate possono essere ritardate o saltate. Una run riuscita con evento `push` o `workflow_dispatch` verifica la generazione e l’invio, ma solo una run con evento `schedule` conferma che il timer è partito.
 
 ## Report HTML Telegram
 
