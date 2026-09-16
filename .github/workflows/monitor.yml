@@ -25,6 +25,8 @@ jobs:
       PORTFOLIO_EUR: ${{ vars.PORTFOLIO_EUR || '5000' }}
       MIN_ALERT_EUR: ${{ vars.MIN_ALERT_EUR || '5' }}
       PORTFOLIO_SUMMARY_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
+      REPORT_URL: https://zioprerioda-hub.github.io/dario-investimenti-etoro-bot/
+      REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
 
     steps:
@@ -42,17 +44,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Monitor eToro and notify Telegram
+      - name: Monitor eToro and build live report
         run: python monitor.py
 
-      - name: Persist monitor state
+      - name: Persist monitor state and live report
         run: |
-          if git diff --quiet -- state.json; then
-            echo "No state change"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
-          git commit -m "chore: update thomaspj monitor state [skip ci]"
+          git add state.json docs/report.json
+          if git diff --cached --quiet; then
+            echo "No state/report change"
+            exit 0
+          fi
+          git commit -m "chore: refresh thomaspj live report [skip ci]"
           git push
