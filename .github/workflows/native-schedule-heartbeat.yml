@@ -1,4 +1,5 @@
 name: Native schedule heartbeat
+# Re-register scheduler after repository visibility change to public.
 
 on:
   workflow_dispatch:
