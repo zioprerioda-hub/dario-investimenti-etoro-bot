@@ -1,0 +1,68 @@
+name: Inspect native report scheduling
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/schedule-diagnostics.yml"
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Read GitHub scheduler metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          import urllib.request
+          from datetime import datetime, timezone
+          base = "https://api.github.com/repos/" + os.environ["GH_REPO"]
+          headers = {
+              "Authorization": "Bearer " + os.environ["GH_TOKEN"],
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "report-schedule-diagnostics",
+          }
+          def get(path):
+              request = urllib.request.Request(base + path, headers=headers)
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
+          repo = get("")
+          workflow = get("/actions/workflows/report-10-minutes.yml")
+          source = get("/contents/.github/workflows/report-10-minutes.yml?ref=" + repo["default_branch"])
+          text = base64.b64decode(source["content"]).decode("utf-8")
+          cron_lines = [line.strip() for line in text.splitlines() if "cron:" in line]
+          runs = get("/actions/workflows/report-10-minutes.yml/runs?event=schedule&per_page=5")
+          result = {
+              "checked_at": datetime.now(timezone.utc).isoformat(),
+              "default_branch": repo["default_branch"],
+              "archived": repo["archived"],
+              "fork": repo["fork"],
+              "workflow": {k: workflow.get(k) for k in ("id", "path", "state", "created_at", "updated_at")},
+              "cron": cron_lines,
+              "scheduled_run_count": runs["total_count"],
+              "scheduled_runs": [
+                  {k: run.get(k) for k in ("id", "event", "created_at", "status", "conclusion")}
+                  for run in runs.get("workflow_runs", [])
+              ],
+          }
+          print("SCHEDULE_DIAGNOSTIC=" + json.dumps(result))
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
+              summary.write("## Native report scheduler\n\n")
+              summary.write("\x60\x60\x60json\n" + json.dumps(result, indent=2) + "\n\x60\x60\x60\n")
+          assert workflow["state"] == "active", "Workflow is not active"
+          assert repo["default_branch"] == "main", "Unexpected default branch"
+          assert cron_lines == ['- cron: "6,16,26,36,46,56 * * * *"'], "Unexpected cron"
+          print("Configuration checks passed; scheduled delivery must be verified separately.")
+          PY
