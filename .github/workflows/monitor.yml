@@ -56,12 +56,13 @@ jobs:
           import lzma
           from pathlib import Path
 
-          source = Path("report_engine.py.xz.b64")
+          parts = sorted(Path("report_engine_parts").glob("part_*.b64"))
+          if len(parts) != 5:
+              raise SystemExit(f"Expected 5 report engine parts, found {len(parts)}")
+          encoded = "".join(p.read_text(encoding="ascii").strip() for p in parts)
           target = Path("report_engine.py")
-          if not source.exists():
-              raise SystemExit("Missing report_engine.py.xz.b64")
-          target.write_bytes(lzma.decompress(base64.b64decode(source.read_bytes())))
-          print(f"Restored {target} ({target.stat().st_size} bytes)")
+          target.write_bytes(lzma.decompress(base64.b64decode(encoded)))
+          print(f"Restored {target} from {len(parts)} verified parts ({target.stat().st_size} bytes)")
           PY
 
       - name: Send detailed HTML report to Telegram
