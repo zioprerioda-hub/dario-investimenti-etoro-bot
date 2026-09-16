@@ -3,7 +3,8 @@ name: Telegram hello every 5 minutes
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    # Every 5 minutes, offset from minute 00 to reduce GitHub scheduler congestion.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
 
 permissions:
   contents: read
@@ -21,13 +22,15 @@ jobs:
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
       - name: Send ciao to Telegram
-        run: python telegram_hello.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN"; exit 1; }
+          test -n "$TELEGRAM_CHAT_ID" || { echo "Missing TELEGRAM_CHAT_ID"; exit 1; }
+          curl --fail --silent --show-error --retry 3 \
+            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \
+            --data-urlencode "text=ciao" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"
+          echo
+          echo "Telegram message sent successfully."
