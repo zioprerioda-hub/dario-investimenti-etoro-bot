@@ -1,6 +1,1997 @@
 {
-  "initialized": false,
-  "positions": {},
-  "updated_at": null,
-  "last_portfolio_summary_at": null
+  "initialized": true,
+  "last_portfolio_summary_at": "2026-09-16T12:27:16+00:00",
+  "positions": {
+    "3396900617": {
+      "instrumentId": 1023,
+      "investmentPct": 0.70131,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.529,
+      "openRate": 311.1993,
+      "openTimestamp": "2026-04-09T19:47:04.077Z",
+      "positionId": 3396900617
+    },
+    "3396930359": {
+      "instrumentId": 1011,
+      "investmentPct": 0.70131,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.839,
+      "openRate": 52.8099,
+      "openTimestamp": "2026-04-09T19:47:24.757Z",
+      "positionId": 3396930359
+    },
+    "3397032344": {
+      "instrumentId": 1011,
+      "investmentPct": 0.700896,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.947639,
+      "openRate": 52.7589,
+      "openTimestamp": "2026-04-09T19:49:39.627Z",
+      "positionId": 3397032344
+    },
+    "3397094991": {
+      "instrumentId": 1023,
+      "investmentPct": 0.701197,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.656185,
+      "openRate": 310.85,
+      "openTimestamp": "2026-04-09T19:50:29.58Z",
+      "positionId": 3397094991
+    },
+    "3397122119": {
+      "instrumentId": 1011,
+      "investmentPct": 0.280517,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.905323,
+      "openRate": 52.7785,
+      "openTimestamp": "2026-04-09T19:50:43.987Z",
+      "positionId": 3397122119
+    },
+    "3397185285": {
+      "instrumentId": 1023,
+      "investmentPct": 0.280433,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.644434,
+      "openRate": 310.8799,
+      "openTimestamp": "2026-04-09T19:52:10.883Z",
+      "positionId": 3397185285
+    },
+    "3400675055": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 14.795,
+      "openRate": 51.91,
+      "openTimestamp": "2026-04-13T13:35:24.127Z",
+      "positionId": 3400675055
+    },
+    "3401067820": {
+      "instrumentId": 1023,
+      "investmentPct": 0.561041,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.790172,
+      "openRate": 310.4853,
+      "openTimestamp": "2026-04-13T16:33:11.43Z",
+      "positionId": 3401067820
+    },
+    "3401072244": {
+      "instrumentId": 1023,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.76625,
+      "openRate": 310.55,
+      "openTimestamp": "2026-04-13T16:33:13.693Z",
+      "positionId": 3401072244
+    },
+    "3401136739": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.775,
+      "openRate": 52.8396,
+      "openTimestamp": "2026-04-13T16:33:44.59Z",
+      "positionId": 3401136739
+    },
+    "3469499066": {
+      "instrumentId": 1023,
+      "investmentPct": 0.560739,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.441143,
+      "openRate": 311.44,
+      "openTimestamp": "2026-06-05T19:15:18.79Z",
+      "positionId": 3469499066
+    },
+    "3469506723": {
+      "instrumentId": 1011,
+      "investmentPct": 0.560627,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 11.072054,
+      "openRate": 53.65,
+      "openTimestamp": "2026-06-05T19:15:22.14Z",
+      "positionId": 3469506723
+    },
+    "3469698696": {
+      "instrumentId": 1023,
+      "investmentPct": 0.560823,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.485394,
+      "openRate": 311.317,
+      "openTimestamp": "2026-06-05T19:17:37.013Z",
+      "positionId": 3469698696
+    },
+    "3469705588": {
+      "instrumentId": 1011,
+      "investmentPct": 0.560942,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 11.09208,
+      "openRate": 53.64,
+      "openTimestamp": "2026-06-05T19:17:39.813Z",
+      "positionId": 3469705588
+    },
+    "3469826758": {
+      "instrumentId": 1023,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.37375,
+      "openRate": 311.6255,
+      "openTimestamp": "2026-06-05T19:18:57.623Z",
+      "positionId": 3469826758
+    },
+    "3469882776": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561034,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 11.011525,
+      "openRate": 53.6789,
+      "openTimestamp": "2026-06-05T19:19:39.7Z",
+      "positionId": 3469882776
+    },
+    "3469906949": {
+      "instrumentId": 1023,
+      "investmentPct": 0.56083,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.411447,
+      "openRate": 311.52,
+      "openTimestamp": "2026-06-05T19:19:50.283Z",
+      "positionId": 3469906949
+    },
+    "3469974881": {
+      "instrumentId": 1023,
+      "investmentPct": 0.560851,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 13.452208,
+      "openRate": 311.4099,
+      "openTimestamp": "2026-06-05T19:20:18.607Z",
+      "positionId": 3469974881
+    },
+    "3469997575": {
+      "instrumentId": 1011,
+      "investmentPct": 0.560914,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 11.056376,
+      "openRate": 53.6572,
+      "openTimestamp": "2026-06-05T19:20:27.177Z",
+      "positionId": 3469997575
+    },
+    "3470077043": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 11.0175,
+      "openRate": 53.6765,
+      "openTimestamp": "2026-06-05T19:21:02.453Z",
+      "positionId": 3470077043
+    },
+    "3475037533": {
+      "instrumentId": 1137,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.91125,
+      "openRate": 204.135,
+      "openTimestamp": "2026-06-09T17:28:14.273Z",
+      "positionId": 3475037533
+    },
+    "3475068415": {
+      "instrumentId": 1005,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.360625,
+      "openRate": 243.3945,
+      "openTimestamp": "2026-06-09T17:28:34.047Z",
+      "positionId": 3475068415
+    },
+    "3475099767": {
+      "instrumentId": 1137,
+      "investmentPct": 1.121506,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.927587,
+      "openRate": 204.1032,
+      "openTimestamp": "2026-06-09T17:29:08.287Z",
+      "positionId": 3475099767
+    },
+    "3475130867": {
+      "instrumentId": 1005,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.293125,
+      "openRate": 243.5554,
+      "openTimestamp": "2026-06-09T17:29:18.917Z",
+      "positionId": 3475130867
+    },
+    "3475315911": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.135,
+      "openRate": 900.61,
+      "openTimestamp": "2026-06-09T17:31:42.767Z",
+      "positionId": 3475315911
+    },
+    "3475353895": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560767,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.247874,
+      "openRate": 908.35,
+      "openTimestamp": "2026-06-09T17:38:38.19Z",
+      "positionId": 3475353895
+    },
+    "3475383751": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.20875,
+      "openRate": 908.6891,
+      "openTimestamp": "2026-06-09T17:38:47.68Z",
+      "positionId": 3475383751
+    },
+    "3476757739": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560879,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.372562,
+      "openRate": 898.5579,
+      "openTimestamp": "2026-06-10T18:32:17.403Z",
+      "positionId": 3476757739
+    },
+    "3476787882": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560213,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.454126,
+      "openRate": 897.86,
+      "openTimestamp": "2026-06-10T18:32:30.34Z",
+      "positionId": 3476787882
+    },
+    "3476818570": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561013,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.444028,
+      "openRate": 897.95,
+      "openTimestamp": "2026-06-10T18:33:21.383Z",
+      "positionId": 3476818570
+    },
+    "3476848364": {
+      "instrumentId": 1137,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 5.84375,
+      "openRate": 202.3358,
+      "openTimestamp": "2026-06-10T18:33:31.633Z",
+      "positionId": 3476848364
+    },
+    "3476879273": {
+      "instrumentId": 1137,
+      "investmentPct": 1.121485,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 5.898832,
+      "openRate": 202.2303,
+      "openTimestamp": "2026-06-10T18:34:07.603Z",
+      "positionId": 3476879273
+    },
+    "3476908319": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 4.4575,
+      "openRate": 897.8272,
+      "openTimestamp": "2026-06-10T18:34:17.377Z",
+      "positionId": 3476908319
+    },
+    "3478373026": {
+      "instrumentId": 4317,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -25.9825,
+      "openRate": 229.6749,
+      "openTimestamp": "2026-06-11T13:54:07.503Z",
+      "positionId": 3478373026
+    },
+    "3478404123": {
+      "instrumentId": 4317,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -25.9925,
+      "openRate": 229.7051,
+      "openTimestamp": "2026-06-11T13:54:21.537Z",
+      "positionId": 3478404123
+    },
+    "3478436285": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560227,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 1.972885,
+      "openRate": 919.7041,
+      "openTimestamp": "2026-06-11T13:54:38.77Z",
+      "positionId": 3478436285
+    },
+    "3478469394": {
+      "instrumentId": 1130,
+      "investmentPct": 0.559982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.027602,
+      "openRate": 919.2088,
+      "openTimestamp": "2026-06-11T13:54:51.55Z",
+      "positionId": 3478469394
+    },
+    "3479209832": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 7.9725,
+      "openRate": 55.19,
+      "openTimestamp": "2026-06-11T17:51:08.01Z",
+      "positionId": 3479209832
+    },
+    "3479262514": {
+      "instrumentId": 1023,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.5225,
+      "openRate": 313.9831,
+      "openTimestamp": "2026-06-11T17:51:45.227Z",
+      "positionId": 3479262514
+    },
+    "3479330408": {
+      "instrumentId": 1011,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 7.875,
+      "openRate": 55.24,
+      "openTimestamp": "2026-06-11T17:52:11.427Z",
+      "positionId": 3479330408
+    },
+    "3479374809": {
+      "instrumentId": 1023,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 12.405,
+      "openRate": 314.3086,
+      "openTimestamp": "2026-06-11T17:52:34.717Z",
+      "positionId": 3479374809
+    },
+    "3480627155": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.94875,
+      "openRate": 1007.8824,
+      "openTimestamp": "2026-06-12T14:14:09.76Z",
+      "positionId": 3480627155
+    },
+    "3480657047": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.31,
+      "openRate": 1011.8188,
+      "openTimestamp": "2026-06-12T14:14:23.423Z",
+      "positionId": 3480657047
+    },
+    "3480973816": {
+      "instrumentId": 1021,
+      "investmentPct": 0.560676,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -16.430885,
+      "openRate": 120.6904,
+      "openTimestamp": "2026-06-12T14:48:24.927Z",
+      "positionId": 3480973816
+    },
+    "3481005854": {
+      "instrumentId": 1021,
+      "investmentPct": 0.560255,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -16.319301,
+      "openRate": 120.53,
+      "openTimestamp": "2026-06-12T14:48:48.143Z",
+      "positionId": 3481005854
+    },
+    "3481015530": {
+      "instrumentId": 1021,
+      "investmentPct": 0.560199,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -16.31718,
+      "openRate": 120.5267,
+      "openTimestamp": "2026-06-12T14:48:51.367Z",
+      "positionId": 3481015530
+    },
+    "3483405510": {
+      "instrumentId": 1021,
+      "investmentPct": 0.222077,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -21.202552,
+      "openRate": 127.9992,
+      "openTimestamp": "2026-06-15T18:19:12.79Z",
+      "positionId": 3483405510
+    },
+    "3483435922": {
+      "instrumentId": 1021,
+      "investmentPct": 0.560949,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -21.177456,
+      "openRate": 127.9576,
+      "openTimestamp": "2026-06-15T18:19:36.913Z",
+      "positionId": 3483435922
+    },
+    "3483449638": {
+      "instrumentId": 1021,
+      "investmentPct": 0.560928,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -21.198255,
+      "openRate": 127.9925,
+      "openTimestamp": "2026-06-15T18:19:40.843Z",
+      "positionId": 3483449638
+    },
+    "3483471474": {
+      "instrumentId": 1021,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -21.23625,
+      "openRate": 128.0542,
+      "openTimestamp": "2026-06-15T18:19:46.127Z",
+      "positionId": 3483471474
+    },
+    "3483646973": {
+      "instrumentId": 1005,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 1.13125,
+      "openRate": 246.3536,
+      "openTimestamp": "2026-06-15T18:21:35.613Z",
+      "positionId": 3483646973
+    },
+    "3484033527": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -13.2375,
+      "openRate": 1080.9384,
+      "openTimestamp": "2026-06-15T18:30:12.59Z",
+      "positionId": 3484033527
+    },
+    "3484094886": {
+      "instrumentId": 4317,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.4025,
+      "openRate": 255.2639,
+      "openTimestamp": "2026-06-15T18:32:10.347Z",
+      "positionId": 3484094886
+    },
+    "3484124929": {
+      "instrumentId": 4317,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.3175,
+      "openRate": 254.9391,
+      "openTimestamp": "2026-06-15T18:32:32.937Z",
+      "positionId": 3484124929
+    },
+    "3484124930": {
+      "instrumentId": 4317,
+      "investmentPct": 0.560613,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.324577,
+      "openRate": 254.9636,
+      "openTimestamp": "2026-06-15T18:32:33.33Z",
+      "positionId": 3484124930
+    },
+    "3484153604": {
+      "instrumentId": 4317,
+      "investmentPct": 0.559919,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.300768,
+      "openRate": 254.875,
+      "openTimestamp": "2026-06-15T18:32:40.693Z",
+      "positionId": 3484153604
+    },
+    "3487201848": {
+      "instrumentId": 4317,
+      "investmentPct": 0.448838,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.575,
+      "openRate": 255.9306,
+      "openTimestamp": "2026-06-18T13:52:05.31Z",
+      "positionId": 3487201848
+    },
+    "3487369680": {
+      "instrumentId": 4317,
+      "investmentPct": 0.448838,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -33.560938,
+      "openRate": 255.8758,
+      "openTimestamp": "2026-06-18T13:53:04.283Z",
+      "positionId": 3487369680
+    },
+    "3487413576": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560416,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -15.309723,
+      "openRate": 1107.3799,
+      "openTimestamp": "2026-06-18T13:53:25.4Z",
+      "positionId": 3487413576
+    },
+    "3489722921": {
+      "instrumentId": 1832,
+      "investmentPct": 0.559876,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.136147,
+      "openRate": 553.6099,
+      "openTimestamp": "2026-06-22T14:06:39.793Z",
+      "positionId": 3489722921
+    },
+    "3489774420": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.15375,
+      "openRate": 553.7131,
+      "openTimestamp": "2026-06-22T14:07:10.27Z",
+      "positionId": 3489774420
+    },
+    "3489835514": {
+      "instrumentId": 1832,
+      "investmentPct": 0.560872,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.139731,
+      "openRate": 553.625,
+      "openTimestamp": "2026-06-22T14:07:42.233Z",
+      "positionId": 3489835514
+    },
+    "3489887065": {
+      "instrumentId": 1832,
+      "investmentPct": 0.560907,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.145536,
+      "openRate": 553.6599,
+      "openTimestamp": "2026-06-22T14:07:58.777Z",
+      "positionId": 3489887065
+    },
+    "3490942457": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.63125,
+      "openRate": 544.7808,
+      "openTimestamp": "2026-06-22T19:23:28.747Z",
+      "positionId": 3490942457
+    },
+    "3490972173": {
+      "instrumentId": 1832,
+      "investmentPct": 0.560669,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.536237,
+      "openRate": 544.2299,
+      "openTimestamp": "2026-06-22T19:23:47.77Z",
+      "positionId": 3490972173
+    },
+    "3490985080": {
+      "instrumentId": 1832,
+      "investmentPct": 0.560311,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.522248,
+      "openRate": 544.148,
+      "openTimestamp": "2026-06-22T19:23:51.903Z",
+      "positionId": 3490985080
+    },
+    "3490986841": {
+      "instrumentId": 1832,
+      "investmentPct": 0.560438,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.524758,
+      "openRate": 544.16,
+      "openTimestamp": "2026-06-22T19:23:52.363Z",
+      "positionId": 3490986841
+    },
+    "3491499266": {
+      "instrumentId": 1832,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.1525,
+      "openRate": 536.3669,
+      "openTimestamp": "2026-06-23T03:51:08.933Z",
+      "positionId": 3491499266
+    },
+    "3491524595": {
+      "instrumentId": 1832,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.6725,
+      "openRate": 539.2987,
+      "openTimestamp": "2026-06-23T03:51:28.073Z",
+      "positionId": 3491524595
+    },
+    "3491531032": {
+      "instrumentId": 1832,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.8025,
+      "openRate": 540.0341,
+      "openTimestamp": "2026-06-23T03:51:30.153Z",
+      "positionId": 3491531032
+    },
+    "3491575342": {
+      "instrumentId": 1832,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.9075,
+      "openRate": 540.6348,
+      "openTimestamp": "2026-06-23T03:52:35.637Z",
+      "positionId": 3491575342
+    },
+    "3492254500": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.8975,
+      "openRate": 524.043,
+      "openTimestamp": "2026-06-23T13:53:46.72Z",
+      "positionId": 3492254500
+    },
+    "3492255879": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.91,
+      "openRate": 524.1099,
+      "openTimestamp": "2026-06-23T13:53:47.78Z",
+      "positionId": 3492255879
+    },
+    "3494356405": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.68,
+      "openRate": 517.6199,
+      "openTimestamp": "2026-06-24T19:55:29.49Z",
+      "positionId": 3494356405
+    },
+    "3494358055": {
+      "instrumentId": 1832,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.69125,
+      "openRate": 517.6799,
+      "openTimestamp": "2026-06-24T19:55:30.75Z",
+      "positionId": 3494358055
+    },
+    "3497622360": {
+      "instrumentId": 2072,
+      "investmentPct": 0.560655,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.939558,
+      "openRate": 1422.4,
+      "openTimestamp": "2026-06-26T07:42:40.967Z",
+      "positionId": 3497622360
+    },
+    "3497651661": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280503,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.947721,
+      "openRate": 1422.4,
+      "openTimestamp": "2026-06-26T07:42:55.347Z",
+      "positionId": 3497651661
+    },
+    "3497677053": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.88,
+      "openRate": 1423.3432,
+      "openTimestamp": "2026-06-26T07:43:09.993Z",
+      "positionId": 3497677053
+    },
+    "3497702738": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.79,
+      "openRate": 1424.4851,
+      "openTimestamp": "2026-06-26T07:43:41.937Z",
+      "positionId": 3497702738
+    },
+    "3497725398": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280447,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.883293,
+      "openRate": 1423.2,
+      "openTimestamp": "2026-06-26T07:43:52.527Z",
+      "positionId": 3497725398
+    },
+    "3497753139": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.8125,
+      "openRate": 1424.2634,
+      "openTimestamp": "2026-06-26T07:44:14.25Z",
+      "positionId": 3497753139
+    },
+    "3497769669": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.79,
+      "openRate": 1424.5931,
+      "openTimestamp": "2026-06-26T07:44:19.593Z",
+      "positionId": 3497769669
+    },
+    "3497783251": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280454,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.87822,
+      "openRate": 1423.4705,
+      "openTimestamp": "2026-06-26T07:44:23.763Z",
+      "positionId": 3497783251
+    },
+    "3497812978": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.84,
+      "openRate": 1424.0,
+      "openTimestamp": "2026-06-26T07:44:34.217Z",
+      "positionId": 3497812978
+    },
+    "3498518693": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.85,
+      "openRate": 1409.93,
+      "openTimestamp": "2026-06-26T15:20:07.843Z",
+      "positionId": 3498518693
+    },
+    "3498523800": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.7625,
+      "openRate": 1411.0239,
+      "openTimestamp": "2026-06-26T15:20:12Z",
+      "positionId": 3498523800
+    },
+    "3498549765": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.7125,
+      "openRate": 1411.7,
+      "openTimestamp": "2026-06-26T15:20:21.497Z",
+      "positionId": 3498549765
+    },
+    "3498580592": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.7975,
+      "openRate": 1410.5378,
+      "openTimestamp": "2026-06-26T15:20:34.38Z",
+      "positionId": 3498580592
+    },
+    "3498586579": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280243,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.808809,
+      "openRate": 1410.4,
+      "openTimestamp": "2026-06-26T15:20:37.473Z",
+      "positionId": 3498586579
+    },
+    "3498625782": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.8,
+      "openRate": 1410.4,
+      "openTimestamp": "2026-06-26T15:20:58.12Z",
+      "positionId": 3498625782
+    },
+    "3498639870": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.71,
+      "openRate": 1411.6306,
+      "openTimestamp": "2026-06-26T15:21:03.767Z",
+      "positionId": 3498639870
+    },
+    "3498658443": {
+      "instrumentId": 2072,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 3.6875,
+      "openRate": 1411.8113,
+      "openTimestamp": "2026-06-26T15:21:10.687Z",
+      "positionId": 3498658443
+    },
+    "3498785892": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560171,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -19.246322,
+      "openRate": 1161.3699,
+      "openTimestamp": "2026-06-26T15:27:19.74Z",
+      "positionId": 3498785892
+    },
+    "3498811118": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560557,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -19.311898,
+      "openRate": 1162.3094,
+      "openTimestamp": "2026-06-26T15:27:33.697Z",
+      "positionId": 3498811118
+    },
+    "3498812605": {
+      "instrumentId": 1130,
+      "investmentPct": 0.561048,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -19.33875,
+      "openRate": 1162.7019,
+      "openTimestamp": "2026-06-26T15:27:34.92Z",
+      "positionId": 3498812605
+    },
+    "3498875086": {
+      "instrumentId": 1130,
+      "investmentPct": 0.560739,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -19.288108,
+      "openRate": 1161.9762,
+      "openTimestamp": "2026-06-26T15:28:25.36Z",
+      "positionId": 3498875086
+    },
+    "3503579344": {
+      "instrumentId": 1130,
+      "investmentPct": 0.420786,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -13.678333,
+      "openRate": 1086.4499,
+      "openTimestamp": "2026-07-01T14:13:59.003Z",
+      "positionId": 3503579344
+    },
+    "3503599504": {
+      "instrumentId": 1130,
+      "investmentPct": 0.420281,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -13.574623,
+      "openRate": 1085.1628,
+      "openTimestamp": "2026-07-01T14:14:22.85Z",
+      "positionId": 3503599504
+    },
+    "3503711107": {
+      "instrumentId": 1832,
+      "investmentPct": 0.490917,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.492857,
+      "openRate": 555.7368,
+      "openTimestamp": "2026-07-01T14:22:43.437Z",
+      "positionId": 3503711107
+    },
+    "3503720803": {
+      "instrumentId": 1832,
+      "investmentPct": 0.490917,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.512857,
+      "openRate": 555.8599,
+      "openTimestamp": "2026-07-01T14:22:49.25Z",
+      "positionId": 3503720803
+    },
+    "3503729686": {
+      "instrumentId": 1832,
+      "investmentPct": 0.422455,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.51187,
+      "openRate": 555.8545,
+      "openTimestamp": "2026-07-01T14:22:54.087Z",
+      "positionId": 3503729686
+    },
+    "3509526964": {
+      "instrumentId": 1832,
+      "investmentPct": 0.630435,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.018911,
+      "openRate": 514.0016,
+      "openTimestamp": "2026-07-07T19:57:32.297Z",
+      "positionId": 3509526964
+    },
+    "3512907135": {
+      "instrumentId": 1137,
+      "investmentPct": 1.122095,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.005,
+      "openRate": 209.95,
+      "openTimestamp": "2026-07-10T19:24:19.087Z",
+      "positionId": 3512907135
+    },
+    "3512936548": {
+      "instrumentId": 1137,
+      "investmentPct": 1.07752,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 1.972091,
+      "openRate": 210.0179,
+      "openTimestamp": "2026-07-10T19:24:51.353Z",
+      "positionId": 3512936548
+    },
+    "3538895706": {
+      "instrumentId": 1137,
+      "investmentPct": 0.535289,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.262987,
+      "openRate": 216.8999,
+      "openTimestamp": "2026-08-10T16:38:03.97Z",
+      "positionId": 3538895706
+    },
+    "3538922691": {
+      "instrumentId": 1137,
+      "investmentPct": 0.70131,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.406,
+      "openRate": 217.215,
+      "openTimestamp": "2026-08-10T16:38:28.843Z",
+      "positionId": 3538922691
+    },
+    "3538945766": {
+      "instrumentId": 1137,
+      "investmentPct": 0.77595,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.353904,
+      "openRate": 217.0999,
+      "openTimestamp": "2026-08-10T16:38:35.277Z",
+      "positionId": 3538945766
+    },
+    "3540630337": {
+      "instrumentId": 1137,
+      "investmentPct": 0.560886,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.385398,
+      "openRate": 217.1688,
+      "openTimestamp": "2026-08-11T19:51:40.417Z",
+      "positionId": 3540630337
+    },
+    "3540657533": {
+      "instrumentId": 1137,
+      "investmentPct": 0.490601,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.45808,
+      "openRate": 217.329,
+      "openTimestamp": "2026-08-11T19:52:12.033Z",
+      "positionId": 3540657533
+    },
+    "3541201451": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -8.365333,
+      "openRate": 1561.1289,
+      "openTimestamp": "2026-08-12T10:22:48.68Z",
+      "positionId": 3541201451
+    },
+    "3541220192": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -8.381333,
+      "openRate": 1561.4,
+      "openTimestamp": "2026-08-12T10:22:53.407Z",
+      "positionId": 3541220192
+    },
+    "3541255359": {
+      "instrumentId": 2072,
+      "investmentPct": 0.574969,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -8.357626,
+      "openRate": 1561.0,
+      "openTimestamp": "2026-08-12T10:23:10.14Z",
+      "positionId": 3541255359
+    },
+    "3544310327": {
+      "instrumentId": 1005,
+      "investmentPct": 0.700805,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.057081,
+      "openRate": 268.057,
+      "openTimestamp": "2026-08-13T14:26:21.557Z",
+      "positionId": 3544310327
+    },
+    "3544338175": {
+      "instrumentId": 1005,
+      "investmentPct": 0.701225,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.043845,
+      "openRate": 268.0175,
+      "openTimestamp": "2026-08-13T14:26:56.183Z",
+      "positionId": 3544338175
+    },
+    "3544365667": {
+      "instrumentId": 1005,
+      "investmentPct": 0.70112,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.022896,
+      "openRate": 267.9576,
+      "openTimestamp": "2026-08-13T14:27:12.893Z",
+      "positionId": 3544365667
+    },
+    "3544391897": {
+      "instrumentId": 1005,
+      "investmentPct": 0.295904,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.031972,
+      "openRate": 267.9856,
+      "openTimestamp": "2026-08-13T14:27:22.547Z",
+      "positionId": 3544391897
+    },
+    "3544426677": {
+      "instrumentId": 1004,
+      "investmentPct": 0.70131,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.553,
+      "openRate": 498.66,
+      "openTimestamp": "2026-08-13T14:30:58.027Z",
+      "positionId": 3544426677
+    },
+    "3544455477": {
+      "instrumentId": 1004,
+      "investmentPct": 0.701282,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.545022,
+      "openRate": 498.619,
+      "openTimestamp": "2026-08-13T14:31:32.58Z",
+      "positionId": 3544455477
+    },
+    "3544470191": {
+      "instrumentId": 1004,
+      "investmentPct": 0.17532,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.540022,
+      "openRate": 498.5986,
+      "openTimestamp": "2026-08-13T14:31:37.433Z",
+      "positionId": 3544470191
+    },
+    "3544754075": {
+      "instrumentId": 7991,
+      "investmentPct": 0.70131,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.541,
+      "openRate": 176.392,
+      "openTimestamp": "2026-08-13T17:56:12.983Z",
+      "positionId": 3544754075
+    },
+    "3544781207": {
+      "instrumentId": 7991,
+      "investmentPct": 0.701176,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.510477,
+      "openRate": 176.3364,
+      "openTimestamp": "2026-08-13T17:56:43.66Z",
+      "positionId": 3544781207
+    },
+    "3544810425": {
+      "instrumentId": 7991,
+      "investmentPct": 0.170355,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.490634,
+      "openRate": 176.3,
+      "openTimestamp": "2026-08-13T17:57:09.683Z",
+      "positionId": 3544810425
+    },
+    "3546123408": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.353333,
+      "openRate": 174.269,
+      "openTimestamp": "2026-08-14T19:55:39.853Z",
+      "positionId": 3546123408
+    },
+    "3546149906": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.117333,
+      "openRate": 495.3198,
+      "openTimestamp": "2026-08-14T19:55:50.327Z",
+      "positionId": 3546149906
+    },
+    "3546177227": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525772,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.303188,
+      "openRate": 174.1797,
+      "openTimestamp": "2026-08-14T19:56:03.48Z",
+      "positionId": 3546177227
+    },
+    "3546183783": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525814,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.149381,
+      "openRate": 495.1594,
+      "openTimestamp": "2026-08-14T19:56:09.627Z",
+      "positionId": 3546183783
+    },
+    "3546232054": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.233333,
+      "openRate": 174.0574,
+      "openTimestamp": "2026-08-14T19:57:46.87Z",
+      "positionId": 3546232054
+    },
+    "3546258504": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.162667,
+      "openRate": 495.0974,
+      "openTimestamp": "2026-08-14T19:57:57.597Z",
+      "positionId": 3546258504
+    },
+    "3546285308": {
+      "instrumentId": 7991,
+      "investmentPct": 0.175327,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.244,
+      "openRate": 174.0774,
+      "openTimestamp": "2026-08-14T19:58:11.113Z",
+      "positionId": 3546285308
+    },
+    "3546308341": {
+      "instrumentId": 1004,
+      "investmentPct": 0.179781,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.17164,
+      "openRate": 495.0577,
+      "openTimestamp": "2026-08-14T19:58:19.017Z",
+      "positionId": 3546308341
+    },
+    "3549543245": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.234667,
+      "openRate": 260.1573,
+      "openTimestamp": "2026-08-18T19:26:58.553Z",
+      "positionId": 3549543245
+    },
+    "3549543291": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.254667,
+      "openRate": 260.21,
+      "openTimestamp": "2026-08-18T19:27:12.46Z",
+      "positionId": 3549543291
+    },
+    "3549543293": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.253333,
+      "openRate": 260.2065,
+      "openTimestamp": "2026-08-18T19:27:13.817Z",
+      "positionId": 3549543293
+    },
+    "3549543338": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.150667,
+      "openRate": 172.1699,
+      "openTimestamp": "2026-08-18T19:27:27.373Z",
+      "positionId": 3549543338
+    },
+    "3549543367": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525863,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.150701,
+      "openRate": 172.17,
+      "openTimestamp": "2026-08-18T19:27:36.087Z",
+      "positionId": 3549543367
+    },
+    "3549581587": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525891,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.620454,
+      "openRate": 483.2389,
+      "openTimestamp": "2026-08-18T19:27:55.233Z",
+      "positionId": 3549581587
+    },
+    "3549619175": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525828,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.644776,
+      "openRate": 483.12,
+      "openTimestamp": "2026-08-18T19:28:06.35Z",
+      "positionId": 3549619175
+    },
+    "3549732014": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.364,
+      "openRate": 172.5374,
+      "openTimestamp": "2026-08-18T19:30:47.303Z",
+      "positionId": 3549732014
+    },
+    "3549758355": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.421333,
+      "openRate": 172.6363,
+      "openTimestamp": "2026-08-18T19:30:56.59Z",
+      "positionId": 3549758355
+    },
+    "3549784774": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525905,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.549707,
+      "openRate": 483.5679,
+      "openTimestamp": "2026-08-18T19:31:06.687Z",
+      "positionId": 3549784774
+    },
+    "3549806596": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.441333,
+      "openRate": 172.6721,
+      "openTimestamp": "2026-08-18T19:31:13.243Z",
+      "positionId": 3549806596
+    },
+    "3549836440": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525919,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.53097,
+      "openRate": 483.6599,
+      "openTimestamp": "2026-08-18T19:31:22.117Z",
+      "positionId": 3549836440
+    },
+    "3549857369": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525835,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 2.546046,
+      "openRate": 483.585,
+      "openTimestamp": "2026-08-18T19:31:28.89Z",
+      "positionId": 3549857369
+    },
+    "3549893749": {
+      "instrumentId": 1005,
+      "investmentPct": 0.238123,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.185074,
+      "openRate": 260.02,
+      "openTimestamp": "2026-08-18T19:33:48.253Z",
+      "positionId": 3549893749
+    },
+    "3556265516": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525723,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.164721,
+      "openRate": 179.3819,
+      "openTimestamp": "2026-08-25T13:49:33.157Z",
+      "positionId": 3556265516
+    },
+    "3556275197": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525744,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.152549,
+      "openRate": 179.3591,
+      "openTimestamp": "2026-08-25T13:49:36.87Z",
+      "positionId": 3556275197
+    },
+    "3556316952": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 1.428,
+      "openRate": 488.9199,
+      "openTimestamp": "2026-08-25T13:49:57.707Z",
+      "positionId": 3556316952
+    },
+    "3556332113": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 1.413333,
+      "openRate": 488.9869,
+      "openTimestamp": "2026-08-25T13:50:05.497Z",
+      "positionId": 3556332113
+    },
+    "3556345026": {
+      "instrumentId": 7991,
+      "investmentPct": 0.11108,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -4.280573,
+      "openRate": 179.5999,
+      "openTimestamp": "2026-08-25T13:50:09.61Z",
+      "positionId": 3556345026
+    },
+    "3560391824": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525639,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.9392,
+      "openRate": 184.7286,
+      "openTimestamp": "2026-08-27T14:24:22.573Z",
+      "positionId": 3560391824
+    },
+    "3560416304": {
+      "instrumentId": 7991,
+      "investmentPct": 0.490917,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -7.007143,
+      "openRate": 184.8633,
+      "openTimestamp": "2026-08-27T14:24:30.81Z",
+      "positionId": 3560416304
+    },
+    "3560441411": {
+      "instrumentId": 1023,
+      "investmentPct": 0.504943,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.231944,
+      "openRate": 352.48,
+      "openTimestamp": "2026-08-27T14:24:41.363Z",
+      "positionId": 3560441411
+    },
+    "3560469588": {
+      "instrumentId": 1011,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.881333,
+      "openRate": 61.3582,
+      "openTimestamp": "2026-08-27T14:25:02.133Z",
+      "positionId": 3560469588
+    },
+    "3560471368": {
+      "instrumentId": 1011,
+      "investmentPct": 0.379072,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.88241,
+      "openRate": 61.3588,
+      "openTimestamp": "2026-08-27T14:25:04.11Z",
+      "positionId": 3560471368
+    },
+    "3560520681": {
+      "instrumentId": 1023,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.169333,
+      "openRate": 352.7029,
+      "openTimestamp": "2026-08-27T14:25:27.297Z",
+      "positionId": 3560520681
+    },
+    "3560625233": {
+      "instrumentId": 5733,
+      "investmentPct": 0.166449,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 5.4226,
+      "openRate": 30.07,
+      "openTimestamp": "2026-08-27T15:04:21.507Z",
+      "positionId": 3560625233
+    },
+    "3560649183": {
+      "instrumentId": 5733,
+      "investmentPct": 0.665164,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 5.463594,
+      "openRate": 30.055,
+      "openTimestamp": "2026-08-27T15:04:51.557Z",
+      "positionId": 3560649183
+    },
+    "3560676435": {
+      "instrumentId": 5733,
+      "investmentPct": 0.166252,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 5.534464,
+      "openRate": 30.035,
+      "openTimestamp": "2026-08-27T15:05:59.003Z",
+      "positionId": 3560676435
+    },
+    "3561944219": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525688,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.108754,
+      "openRate": 265.35,
+      "openTimestamp": "2026-08-28T16:23:37.927Z",
+      "positionId": 3561944219
+    },
+    "3561968685": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525667,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.059636,
+      "openRate": 265.2098,
+      "openTimestamp": "2026-08-28T16:23:45.827Z",
+      "positionId": 3561968685
+    },
+    "3561993556": {
+      "instrumentId": 1005,
+      "investmentPct": 0.525961,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.062909,
+      "openRate": 265.22,
+      "openTimestamp": "2026-08-28T16:23:54.5Z",
+      "positionId": 3561993556
+    },
+    "3562019234": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525554,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -3.812434,
+      "openRate": 515.5588,
+      "openTimestamp": "2026-08-28T16:24:05.687Z",
+      "positionId": 3562019234
+    },
+    "3567963095": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.154667,
+      "openRate": 183.1836,
+      "openTimestamp": "2026-09-03T19:47:25.017Z",
+      "positionId": 3567963095
+    },
+    "3567988310": {
+      "instrumentId": 7991,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.157333,
+      "openRate": 183.1895,
+      "openTimestamp": "2026-09-03T19:47:36.087Z",
+      "positionId": 3567988310
+    },
+    "3568012905": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.897333,
+      "openRate": 510.6999,
+      "openTimestamp": "2026-09-03T19:47:44.32Z",
+      "positionId": 3568012905
+    },
+    "3568041854": {
+      "instrumentId": 1004,
+      "investmentPct": 0.525877,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.879243,
+      "openRate": 510.5999,
+      "openTimestamp": "2026-09-03T19:48:09.667Z",
+      "positionId": 3568041854
+    },
+    "3568072708": {
+      "instrumentId": 1023,
+      "investmentPct": 0.280412,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.398459,
+      "openRate": 361.9838,
+      "openTimestamp": "2026-09-03T19:54:46.03Z",
+      "positionId": 3568072708
+    },
+    "3568099992": {
+      "instrumentId": 1011,
+      "investmentPct": 0.280341,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.488568,
+      "openRate": 63.0497,
+      "openTimestamp": "2026-09-03T19:55:38.357Z",
+      "positionId": 3568099992
+    },
+    "3568126856": {
+      "instrumentId": 1011,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.4575,
+      "openRate": 63.0299,
+      "openTimestamp": "2026-09-03T19:57:14.653Z",
+      "positionId": 3568126856
+    },
+    "3568153278": {
+      "instrumentId": 1011,
+      "investmentPct": 0.140248,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.49555,
+      "openRate": 63.055,
+      "openTimestamp": "2026-09-03T19:58:11.197Z",
+      "positionId": 3568153278
+    },
+    "3568193385": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140262,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.44,
+      "openRate": 362.1292,
+      "openTimestamp": "2026-09-03T19:58:24.867Z",
+      "positionId": 3568193385
+    },
+    "3568224091": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140262,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.435,
+      "openRate": 362.1191,
+      "openTimestamp": "2026-09-03T19:59:03.377Z",
+      "positionId": 3568224091
+    },
+    "3568234398": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140255,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.415121,
+      "openRate": 362.05,
+      "openTimestamp": "2026-09-03T19:59:06.62Z",
+      "positionId": 3568234398
+    },
+    "3568268790": {
+      "instrumentId": 1011,
+      "investmentPct": 0.140206,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.422169,
+      "openRate": 63.005,
+      "openTimestamp": "2026-09-03T19:59:48.867Z",
+      "positionId": 3568268790
+    },
+    "3568291071": {
+      "instrumentId": 1011,
+      "investmentPct": 0.140262,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.65,
+      "openRate": 63.1592,
+      "openTimestamp": "2026-09-03T20:00:12.103Z",
+      "positionId": 3568291071
+    },
+    "3568313438": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140192,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.616308,
+      "openRate": 362.8001,
+      "openTimestamp": "2026-09-03T20:00:58.667Z",
+      "positionId": 3568313438
+    },
+    "3568381230": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140171,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.596688,
+      "openRate": 362.7266,
+      "openTimestamp": "2026-09-03T20:01:35.13Z",
+      "positionId": 3568381230
+    },
+    "3568403674": {
+      "instrumentId": 1011,
+      "investmentPct": 0.140241,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -5.680852,
+      "openRate": 63.179,
+      "openTimestamp": "2026-09-03T20:02:48.417Z",
+      "positionId": 3568403674
+    },
+    "3568425981": {
+      "instrumentId": 1023,
+      "investmentPct": 0.140241,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -2.650398,
+      "openRate": 362.9118,
+      "openTimestamp": "2026-09-03T20:03:05.907Z",
+      "positionId": 3568425981
+    },
+    "3568468956": {
+      "instrumentId": 1137,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.4725,
+      "openRate": 228.9799,
+      "openTimestamp": "2026-09-03T21:54:58.99Z",
+      "positionId": 3568468956
+    },
+    "3568495003": {
+      "instrumentId": 1137,
+      "investmentPct": 0.280524,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -6.49,
+      "openRate": 229.0213,
+      "openTimestamp": "2026-09-03T21:55:17.403Z",
+      "positionId": 3568495003
+    },
+    "3568871831": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525835,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.149375,
+      "openRate": 31.785,
+      "openTimestamp": "2026-09-04T13:05:01.677Z",
+      "positionId": 3568871831
+    },
+    "3568897486": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525709,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.18543,
+      "openRate": 31.775,
+      "openTimestamp": "2026-09-04T13:05:11.85Z",
+      "positionId": 3568897486
+    },
+    "3568924457": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.122667,
+      "openRate": 31.792,
+      "openTimestamp": "2026-09-04T13:05:26.207Z",
+      "positionId": 3568924457
+    },
+    "3568949436": {
+      "instrumentId": 5733,
+      "investmentPct": 0.527357,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.09575,
+      "openRate": 31.798,
+      "openTimestamp": "2026-09-04T13:05:34.37Z",
+      "positionId": 3568949436
+    },
+    "3574312593": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": 0.02,
+      "openRate": 31.72,
+      "openTimestamp": "2026-09-10T10:05:37.09Z",
+      "positionId": 3574312593
+    },
+    "3574338602": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.018667,
+      "openRate": 31.733,
+      "openTimestamp": "2026-09-10T10:05:47.027Z",
+      "positionId": 3574338602
+    },
+    "3574365112": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.002667,
+      "openRate": 31.728,
+      "openTimestamp": "2026-09-10T10:06:03.513Z",
+      "positionId": 3574365112
+    },
+    "3574392838": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.014667,
+      "openRate": 31.731,
+      "openTimestamp": "2026-09-10T10:06:14.997Z",
+      "positionId": 3574392838
+    },
+    "3574413394": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.4,
+      "openRate": 1432.9038,
+      "openTimestamp": "2026-09-10T10:06:20.47Z",
+      "positionId": 3574413394
+    },
+    "3574444869": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.422667,
+      "openRate": 1433.2242,
+      "openTimestamp": "2026-09-10T10:06:36.17Z",
+      "positionId": 3574444869
+    },
+    "3574470907": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.436,
+      "openRate": 1433.4138,
+      "openTimestamp": "2026-09-10T10:06:55.297Z",
+      "positionId": 3574470907
+    },
+    "3574474364": {
+      "instrumentId": 2072,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.498667,
+      "openRate": 1434.3239,
+      "openTimestamp": "2026-09-10T10:06:56.747Z",
+      "positionId": 3574474364
+    },
+    "3576228174": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.989333,
+      "openRate": 32.14,
+      "openTimestamp": "2026-09-11T12:59:38.42Z",
+      "positionId": 3576228174
+    },
+    "3576248374": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525975,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.997347,
+      "openRate": 32.143,
+      "openTimestamp": "2026-09-11T12:59:44.027Z",
+      "positionId": 3576248374
+    },
+    "3576276006": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.02,
+      "openRate": 32.15,
+      "openTimestamp": "2026-09-11T12:59:51.767Z",
+      "positionId": 3576276006
+    },
+    "3576303755": {
+      "instrumentId": 5733,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -1.030667,
+      "openRate": 32.155,
+      "openTimestamp": "2026-09-11T13:00:01.56Z",
+      "positionId": 3576303755
+    },
+    "3576906545": {
+      "instrumentId": 1832,
+      "investmentPct": 0.525982,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.364,
+      "openRate": 515.9781,
+      "openTimestamp": "2026-09-11T17:40:18.877Z",
+      "positionId": 3576906545
+    },
+    "3576906635": {
+      "instrumentId": 1832,
+      "investmentPct": 0.381814,
+      "isBuy": true,
+      "leverage": 1,
+      "netProfit": -0.369193,
+      "openRate": 516.0058,
+      "openTimestamp": "2026-09-11T17:40:19.56Z",
+      "positionId": 3576906635
+    }
+  },
+  "updated_at": "2026-09-16T12:27:16+00:00"
 }
