@@ -100,7 +100,7 @@ jobs:
               'data-tab="overview"', 'data-tab="trades"', 'data-tab="seasonality"',
               'data-tab="history"', 'data-tab="correlations"', 'data-tab="risk"',
               'data-tab="activity"', 'data-tab="dividends"', 'data-tab="positions"',
-              'data-tab="copiers"', 'data-tab="feed"', 'const D = '
+              'data-tab="copiersTab"', 'data-tab="feed"', 'const D = '
           ]
           missing = [item for item in required if item not in template]
           if missing:
