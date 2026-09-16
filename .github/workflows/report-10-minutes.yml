@@ -1,11 +1,12 @@
-name: Report thomaspj every 10 minutes
+name: Report thomaspj every minute
 run-name: "${{ github.event_name }} | thomaspj report"
 
 on:
   workflow_dispatch:
   schedule:
-    # UTC, one report every ten minutes; avoid the top of the hour.
-    - cron: "6,16,26,36,46,56 * * * *"
+    # GitHub Actions supports a minimum native schedule interval of 5 minutes.
+    # Each scheduled job stays alive for five cycles and sends one report per minute.
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 7
     env:
       ETORO_API_KEY: ${{ secrets.ETORO_API_KEY }}
       ETORO_USER_KEY: ${{ secrets.ETORO_USER_KEY }}
@@ -26,8 +27,8 @@ jobs:
       ETORO_USERNAME: thomaspj
       PORTFOLIO_EUR: ${{ vars.PORTFOLIO_EUR || '5000' }}
       MIN_ALERT_EUR: ${{ vars.MIN_ALERT_EUR || '5' }}
-      PORTFOLIO_SUMMARY_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
-      HTML_REPORT_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
+      PORTFOLIO_SUMMARY_MINUTES: "1"
+      HTML_REPORT_MINUTES: "1"
       FORCE_HTML_REPORT: "true"
       FORCE_PORTFOLIO_SUMMARY: "true"
       REPORT_URL: ""
@@ -36,6 +37,7 @@ jobs:
       RISK_FREE_ANNUAL: "0"
       TREEMAP_HISTORY_HOURS: "12"
       TREEMAP_HISTORY_LIMIT: "20"
+      EVENT_NAME: ${{ github.event_name }}
 
     steps:
       - name: Checkout
@@ -53,13 +55,40 @@ jobs:
 
       - name: Show scheduler mode
         run: |
-          echo "event=${{ github.event_name }}"
+          echo "event=$EVENT_NAME"
           echo "schedule=${{ github.event.schedule }}"
           echo "FORCE_HTML_REPORT=$FORCE_HTML_REPORT"
           echo "FORCE_PORTFOLIO_SUMMARY=$FORCE_PORTFOLIO_SUMMARY"
 
-      - name: Monitor eToro and deliver report when scheduled
-        run: python scheduled_runner.py
+      - name: Monitor eToro and deliver one report per minute
+        shell: bash
+        run: |
+          set -e
+
+          # A manual run sends one report immediately.
+          # A scheduled run sends five reports, one approximately every minute,
+          # bridging GitHub Actions' native 5-minute minimum cron interval.
+          if [ "$EVENT_NAME" = "schedule" ]; then
+            iterations=5
+          else
+            iterations=1
+          fi
+
+          for i in $(seq 1 "$iterations"); do
+            cycle_start=$(date +%s)
+            echo "===== Report cycle $i/$iterations at $(date -u +'%Y-%m-%dT%H:%M:%SZ') ====="
+            python scheduled_runner.py
+
+            if [ "$i" -lt "$iterations" ]; then
+              elapsed=$(( $(date +%s) - cycle_start ))
+              sleep_for=$(( 60 - elapsed ))
+              if [ "$sleep_for" -lt 1 ]; then
+                sleep_for=1
+              fi
+              echo "Waiting ${sleep_for}s before the next report..."
+              sleep "$sleep_for"
+            fi
+          done
 
       - name: Persist monitor and report history
         if: always()
@@ -105,8 +134,8 @@ jobs:
           done
 
           if [ "$persisted" -ne 1 ]; then
-            echo "::warning::Report was delivered, but state persistence could not be pushed after 3 attempts."
+            echo "::warning::Reports were delivered, but state persistence could not be pushed after 3 attempts."
           fi
 
-          # Never mark the whole report run failed just because persistence raced with another commit.
+          # Never mark report delivery failed only because state persistence raced with another commit.
           exit 0
