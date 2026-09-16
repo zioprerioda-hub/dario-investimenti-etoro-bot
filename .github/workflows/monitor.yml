@@ -26,6 +26,7 @@ jobs:
       MIN_ALERT_EUR: ${{ vars.MIN_ALERT_EUR || '5' }}
       PORTFOLIO_SUMMARY_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
       HTML_REPORT_MINUTES: ${{ vars.PORTFOLIO_SUMMARY_MINUTES || '10' }}
+      FORCE_HTML_REPORT: ${{ github.event_name == 'workflow_dispatch' }}
       REPORT_URL: ""
       REPORT_DIR: docs
       SEND_INITIAL_PORTFOLIO: "true"
@@ -45,19 +46,37 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Monitor eToro and build report data
+      - name: Monitor eToro and build portfolio state
         run: python monitor.py
 
-      - name: Send HTML report to Telegram
-        run: python report_sender.py
+      - name: Restore detailed HTML report engine
+        run: |
+          python - <<'PY'
+          import base64
+          import lzma
+          from pathlib import Path
 
-      - name: Persist monitor and HTML report state
+          source = Path("report_engine.py.xz.b64")
+          target = Path("report_engine.py")
+          if not source.exists():
+              raise SystemExit("Missing report_engine.py.xz.b64")
+          target.write_bytes(lzma.decompress(base64.b64decode(source.read_bytes())))
+          print(f"Restored {target} ({target.stat().st_size} bytes)")
+          PY
+
+      - name: Send detailed HTML report to Telegram
+        run: python report_engine.py
+
+      - name: Persist monitor and report history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
           if [ -f html_report_state.json ]; then
             git add html_report_state.json
+          fi
+          if [ -f dashboard_state.json ]; then
+            git add dashboard_state.json
           fi
           if git diff --cached --quiet; then
             echo "No state change"
