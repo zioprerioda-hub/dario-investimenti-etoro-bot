@@ -1,0 +1,20 @@
+name: Native schedule heartbeat
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Minimal native GitHub timer test, every five minutes (UTC).
+    - cron: "4,9,14,19,24,29,34,39,44,49,54,59 * * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Confirm native schedule event
+        run: |
+          echo "event=$GITHUB_EVENT_NAME"
+          date -u
