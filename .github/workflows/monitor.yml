@@ -90,6 +90,7 @@ jobs:
         run: |
           python -m py_compile report_engine.py
           python -m py_compile run_report_fixed.py
+          python -m py_compile run_report_ranges.py
           python - <<'PY'
           import base64
           import lzma
@@ -112,6 +113,12 @@ jobs:
           if missing_engine:
               raise SystemExit(f"Corrected report engine validation failed. Missing: {missing_engine}")
 
+          ranges = Path("run_report_ranges.py").read_text(encoding="utf-8")
+          range_required = ["Year to date", "Last Year", "Last 2 Years", "Last 3 Years", "Last 5 Years", "All Time", "performanceMetricsByPeriod"]
+          missing_ranges = [item for item in range_required if item not in ranges]
+          if missing_ranges:
+              raise SystemExit(f"Performance range validation failed. Missing: {missing_ranges}")
+
           parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
           if len(parts) != 12:
               raise SystemExit(f"Expected 12 template chunks, found {len(parts)}")
@@ -130,8 +137,8 @@ jobs:
           print(f"Detailed BullAware template OK: {len(template)} characters")
           PY
 
-      - name: Send deduplicated detailed HTML report to Telegram
-        run: python run_report_fixed.py
+      - name: Send range-aware deduplicated HTML report to Telegram
+        run: python run_report_ranges.py
 
       - name: Persist monitor and report history
         run: |
