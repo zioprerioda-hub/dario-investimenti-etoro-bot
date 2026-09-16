@@ -86,12 +86,13 @@ jobs:
               print(f"Repaired template chunk {n:02d}")
           PY
 
-      - name: Validate detailed report assets
+      - name: Validate detailed report assets and Excel metric formulas
         run: |
           python -m py_compile report_engine.py
           python -m py_compile run_report_fixed.py
           python -m py_compile run_report_ranges.py
           python -m py_compile run_report_ranges_fixed.py
+          python -m py_compile excel_metrics.py
           python - <<'PY'
           import base64
           import lzma
@@ -117,15 +118,43 @@ jobs:
           ranges = Path("run_report_ranges.py").read_text(encoding="utf-8")
           range_required = [
               "Year to date", "Last Year", "Last 2 Years", "Last 3 Years",
-              "Last 5 Years", "All Time", "performanceMetricsByPeriod"
+              "Last 5 Years", "All Time"
           ]
           missing_ranges = [item for item in range_required if item not in ranges]
           if missing_ranges:
-              raise SystemExit(f"Performance range validation failed. Missing: {missing_ranges}")
+              raise SystemExit(f"Performance range UI validation failed. Missing: {missing_ranges}")
+
+          excel = Path("excel_metrics.py").read_text(encoding="utf-8")
+          excel_required = [
+              "TRADING_DAYS = 252.0",
+              "statistics.stdev",
+              "_covariance_p",
+              "_variance_p",
+              "risk_free_annual",
+              "downside",
+              "omega_num",
+              "omega_den",
+              "jensen_decimal",
+              "treynor",
+              "information",
+              "_max_drawdown",
+              "calmar",
+              "daily-gain",
+              "Yahoo ^GSPC daily",
+          ]
+          missing_excel = [item for item in excel_required if item not in excel]
+          if missing_excel:
+              raise SystemExit(f"Excel metric engine validation failed. Missing: {missing_excel}")
 
           wrapper = Path("run_report_ranges_fixed.py").read_text(encoding="utf-8")
-          if "_ORIGINAL_DEDUPE_FIX = base._fix_html" not in wrapper:
-              raise SystemExit("Range wrapper does not preserve original dedupe function")
+          wrapper_required = [
+              "_ORIGINAL_DEDUPE_FIX = base._fix_html",
+              "excel_metrics.period_metrics(data)",
+              'data["performanceMetricsMeta"]',
+          ]
+          missing_wrapper = [item for item in wrapper_required if item not in wrapper]
+          if missing_wrapper:
+              raise SystemExit(f"Range wrapper validation failed. Missing: {missing_wrapper}")
 
           parts = sorted(Path("template_parts").glob("bullaware_template_*.b64"))
           if len(parts) != 12:
@@ -142,10 +171,11 @@ jobs:
           if missing:
               raise SystemExit(f"Detailed template validation failed. Missing: {missing}")
           print(f"Corrected report engine OK: {len(source)} characters")
+          print(f"Excel formula metric engine OK: {len(excel)} characters")
           print(f"Detailed BullAware template OK: {len(template)} characters")
           PY
 
-      - name: Send range-aware deduplicated HTML report to Telegram
+      - name: Send Excel-formula range-aware HTML report to Telegram
         run: python run_report_ranges_fixed.py
 
       - name: Persist monitor and report history
