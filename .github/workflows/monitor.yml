@@ -83,4 +83,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update thomaspj monitor state [skip ci]"
+          # Integrate changes made while the report was running without force-pushing.
+          git pull --rebase --autostash origin "${{ github.ref_name }}"
           git push
