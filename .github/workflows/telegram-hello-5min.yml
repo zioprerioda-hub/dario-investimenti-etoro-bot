@@ -3,34 +3,20 @@ name: Telegram hello every 5 minutes
 on:
   workflow_dispatch:
   schedule:
-    # Every 5 minutes, offset from minute 00 to reduce GitHub scheduler congestion.
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
-
-permissions:
-  contents: read
-
-concurrency:
-  group: telegram-hello-5min
-  cancel-in-progress: false
+    - cron: "*/5 * * * *"
 
 jobs:
   send-hello:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
-    env:
-      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
     steps:
-      - name: Send ciao to Telegram
-        shell: bash
+      - name: Send Telegram message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          set -euo pipefail
-          test -n "$TELEGRAM_BOT_TOKEN" || { echo "Missing TELEGRAM_BOT_TOKEN"; exit 1; }
-          test -n "$TELEGRAM_CHAT_ID" || { echo "Missing TELEGRAM_CHAT_ID"; exit 1; }
-          curl --fail --silent --show-error --retry 3 \
-            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" \
-            --data-urlencode "text=ciao" \
-            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage"
-          echo
-          echo "Telegram message sent successfully."
+          curl --fail --silent --show-error \
+            --request POST \
+            --url "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=Hello from GitHub Actions"
