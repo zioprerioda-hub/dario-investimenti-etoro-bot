@@ -1,24 +1,21 @@
-name: Report thomaspj every minute
-run-name: "${{ github.event_name }} | thomaspj report"
+name: Report thomaspj manual fallback
+run-name: "${{ github.event_name }} | thomaspj fallback report"
 
+# Automatic scheduling moved to Supabase. GitHub remains available only as a manual fallback.
 on:
   workflow_dispatch:
-  schedule:
-    # GitHub Actions supports a minimum native schedule interval of 5 minutes.
-    # Keep one runner alive for five cycles so Telegram receives one report per minute.
-    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
 
 concurrency:
-  group: thomaspj-etoro-monitor
+  group: thomaspj-etoro-monitor-manual
   cancel-in-progress: false
 
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 4
     env:
       ETORO_API_KEY: ${{ secrets.ETORO_API_KEY }}
       ETORO_USER_KEY: ${{ secrets.ETORO_USER_KEY }}
@@ -37,7 +34,6 @@ jobs:
       RISK_FREE_ANNUAL: "0"
       TREEMAP_HISTORY_HOURS: "12"
       TREEMAP_HISTORY_LIMIT: "20"
-      EVENT_NAME: ${{ github.event_name }}
 
     steps:
       - name: Checkout
@@ -53,76 +49,8 @@ jobs:
       - name: Install report dependencies
         run: pip install requests==2.32.5
 
-      - name: Show scheduler mode
-        run: |
-          echo "event=$EVENT_NAME"
-          echo "schedule=${{ github.event.schedule }}"
-          echo "FORCE_HTML_REPORT=$FORCE_HTML_REPORT"
-          echo "FORCE_PORTFOLIO_SUMMARY=$FORCE_PORTFOLIO_SUMMARY"
-
-      - name: Monitor eToro and deliver one report per minute
-        shell: bash
-        run: |
-          # Do NOT use `set -e` here: one transient eToro/Telegram failure must
-          # never terminate the remaining minute cycles.
-          set +e
-
-          # Always run five cycles. This also makes a manual test reproduce the
-          # real scheduled behaviour instead of sending only one report.
-          iterations=5
-          successful_cycles=0
-          failed_cycles=0
-
-          for i in $(seq 1 "$iterations"); do
-            cycle_start=$(date +%s)
-            echo "===== Report cycle $i/$iterations at $(date -u +'%Y-%m-%dT%H:%M:%SZ') ====="
-
-            # Retry the individual minute once for transient API/network errors.
-            cycle_ok=0
-            for attempt in 1 2; do
-              echo "Cycle $i attempt $attempt/2"
-              python scheduled_runner.py
-              rc=$?
-
-              if [ "$rc" -eq 0 ]; then
-                cycle_ok=1
-                successful_cycles=$((successful_cycles + 1))
-                echo "Cycle $i delivered successfully."
-                break
-              fi
-
-              echo "::warning::Cycle $i attempt $attempt failed with exit code $rc."
-              if [ "$attempt" -lt 2 ]; then
-                echo "Retrying this minute in 5 seconds..."
-                sleep 5
-              fi
-            done
-
-            if [ "$cycle_ok" -ne 1 ]; then
-              failed_cycles=$((failed_cycles + 1))
-              echo "::warning::Cycle $i failed after both attempts; continuing with the next minute."
-            fi
-
-            if [ "$i" -lt "$iterations" ]; then
-              elapsed=$(( $(date +%s) - cycle_start ))
-              sleep_for=$(( 60 - elapsed ))
-              if [ "$sleep_for" -lt 1 ]; then
-                sleep_for=1
-              fi
-              echo "Waiting ${sleep_for}s before the next report cycle..."
-              sleep "$sleep_for"
-            fi
-          done
-
-          echo "Minute-loop summary: successful=$successful_cycles failed=$failed_cycles"
-
-          # The persistence step below must always run. Mark a warning rather
-          # than aborting the job when only some minute cycles failed.
-          if [ "$failed_cycles" -gt 0 ]; then
-            echo "::warning::$failed_cycles of $iterations report cycles failed, but the loop completed."
-          fi
-
-          exit 0
+      - name: Send one manual fallback report
+        run: python scheduled_runner.py
 
       - name: Persist monitor and report history
         if: always()
@@ -137,39 +65,20 @@ jobs:
             if [ -f "$f" ]; then cp "$f" "$tmpdir/$f"; fi
           done
 
-          persisted=0
-          for attempt in 1 2 3; do
-            echo "Persistence attempt $attempt"
-            git fetch origin main || true
-            git reset --hard origin/main || true
+          git fetch origin main || true
+          git reset --hard origin/main || true
 
-            for f in state.json html_report_state.json dashboard_state.json; do
-              if [ -f "$tmpdir/$f" ]; then cp "$tmpdir/$f" "$f"; fi
-            done
-
-            git add state.json 2>/dev/null || true
-            [ -f html_report_state.json ] && git add html_report_state.json
-            [ -f dashboard_state.json ] && git add dashboard_state.json
-
-            if git diff --cached --quiet; then
-              echo "No state change to persist"
-              persisted=1
-              break
-            fi
-
-            git commit -m "chore: update thomaspj monitor state [skip ci]" || true
-            if git push origin HEAD:main; then
-              echo "State persisted successfully"
-              persisted=1
-              break
-            fi
-
-            sleep 2
+          for f in state.json html_report_state.json dashboard_state.json; do
+            if [ -f "$tmpdir/$f" ]; then cp "$tmpdir/$f" "$f"; fi
           done
 
-          if [ "$persisted" -ne 1 ]; then
-            echo "::warning::Reports were delivered, but state persistence could not be pushed after 3 attempts."
+          git add state.json 2>/dev/null || true
+          [ -f html_report_state.json ] && git add html_report_state.json
+          [ -f dashboard_state.json ] && git add dashboard_state.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update thomaspj monitor state [skip ci]" || true
+            git push origin HEAD:main || true
           fi
 
-          # Never mark report delivery failed only because state persistence raced with another commit.
           exit 0
