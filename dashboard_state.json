@@ -12,7 +12,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": 0.56,
+      "netProfit": 0.758667,
       "trailingStopLoss": false
     },
     "3546258504": {
@@ -27,7 +27,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.694667,
+      "netProfit": -0.498667,
       "trailingStopLoss": false
     },
     "3568041854": {
@@ -42,7 +42,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525877,
-      "netProfit": -3.708742,
+      "netProfit": -3.519371,
       "trailingStopLoss": false
     },
     "3568012905": {
@@ -57,7 +57,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -3.728,
+      "netProfit": -3.538667,
       "trailingStopLoss": false
     },
     "3546149906": {
@@ -72,7 +72,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.738667,
+      "netProfit": -0.542667,
       "trailingStopLoss": false
     },
     "3556332113": {
@@ -87,7 +87,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": 0.546667,
+      "netProfit": 0.745333,
       "trailingStopLoss": false
     },
     "3549857369": {
@@ -102,7 +102,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525835,
-      "netProfit": 1.669801,
+      "netProfit": 1.869857,
       "trailingStopLoss": false
     },
     "3549784774": {
@@ -117,7 +117,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525905,
-      "netProfit": 1.673579,
+      "netProfit": 1.873608,
       "trailingStopLoss": false
     },
     "3549619175": {
@@ -132,7 +132,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525828,
-      "netProfit": 1.767185,
+      "netProfit": 1.968577,
       "trailingStopLoss": false
     },
     "3544426677": {
@@ -147,7 +147,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70131,
-      "netProfit": -1.404,
+      "netProfit": -1.209,
       "trailingStopLoss": false
     },
     "3544455477": {
@@ -162,7 +162,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.701282,
-      "netProfit": -1.396056,
+      "netProfit": -1.201048,
       "trailingStopLoss": false
     },
     "3546183783": {
@@ -177,7 +177,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525814,
-      "netProfit": -0.706893,
+      "netProfit": -0.51083,
       "trailingStopLoss": false
     },
     "3562019234": {
@@ -192,7 +192,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525554,
-      "netProfit": -4.63577,
+      "netProfit": -4.447617,
       "trailingStopLoss": false
     },
     "3549581587": {
@@ -207,7 +207,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525891,
-      "netProfit": 1.742969,
+      "netProfit": 1.943003,
       "trailingStopLoss": false
     },
     "3549836440": {
@@ -222,7 +222,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525919,
-      "netProfit": 1.653532,
+      "netProfit": 1.854889,
       "trailingStopLoss": false
     },
     "3544470191": {
@@ -237,7 +237,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.17532,
-      "netProfit": -1.392056,
+      "netProfit": -1.196048,
       "trailingStopLoss": false
     },
     "3546308341": {
@@ -252,7 +252,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.179781,
-      "netProfit": -0.686561,
+      "netProfit": -0.491516,
       "trailingStopLoss": false
     },
     "3561993556": {
@@ -267,7 +267,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525961,
-      "netProfit": -6.794938,
+      "netProfit": -6.450925,
       "trailingStopLoss": false
     },
     "3475068415": {
@@ -282,7 +282,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 1.56375,
+      "netProfit": 1.9375,
       "trailingStopLoss": false
     },
     "3475130867": {
@@ -297,7 +297,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 1.49625,
+      "netProfit": 1.87,
       "trailingStopLoss": false
     },
     "3544365667": {
@@ -312,7 +312,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70112,
-      "netProfit": -7.747092,
+      "netProfit": -7.407,
       "trailingStopLoss": false
     },
     "3561944219": {
@@ -327,7 +327,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525688,
-      "netProfit": -6.83983,
+      "netProfit": -6.496972,
       "trailingStopLoss": false
     },
     "3483646973": {
@@ -342,7 +342,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 0.34375,
+      "netProfit": 0.713125,
       "trailingStopLoss": false
     },
     "3544338175": {
@@ -357,7 +357,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.701225,
-      "netProfit": -7.766932,
+      "netProfit": -7.427891,
       "trailingStopLoss": false
     },
     "3544310327": {
@@ -372,7 +372,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.700805,
-      "netProfit": -7.780602,
+      "netProfit": -7.441358,
       "trailingStopLoss": false
     },
     "3561968685": {
@@ -387,7 +387,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525667,
-      "netProfit": -6.790741,
+      "netProfit": -6.447869,
       "trailingStopLoss": false
     },
     "3549543291": {
@@ -402,7 +402,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -5.0,
+      "netProfit": -4.650667,
       "trailingStopLoss": false
     },
     "3549543293": {
@@ -417,7 +417,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -4.998667,
+      "netProfit": -4.649333,
       "trailingStopLoss": false
     },
     "3549543245": {
@@ -432,7 +432,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -4.98,
+      "netProfit": -4.630667,
       "trailingStopLoss": false
     },
     "3544391897": {
@@ -447,7 +447,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.295904,
-      "netProfit": -7.757211,
+      "netProfit": -7.415922,
       "trailingStopLoss": false
     },
     "3549893749": {
@@ -462,7 +462,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.238123,
-      "netProfit": -4.9302,
+      "netProfit": -4.579726,
       "trailingStopLoss": false
     },
     "3400675055": {
@@ -477,7 +477,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 11.53875,
+      "netProfit": 11.86625,
       "trailingStopLoss": false
     },
     "3568126856": {
@@ -492,7 +492,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -8.14,
+      "netProfit": -7.87,
       "trailingStopLoss": false
     },
     "3479330408": {
@@ -507,7 +507,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 4.815,
+      "netProfit": 5.1225,
       "trailingStopLoss": false
     },
     "3396930359": {
@@ -522,7 +522,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70131,
-      "netProfit": 9.639,
+      "netProfit": 9.96,
       "trailingStopLoss": false
     },
     "3560471368": {
@@ -537,7 +537,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.379072,
-      "netProfit": -5.637164,
+      "netProfit": -5.359654,
       "trailingStopLoss": false
     },
     "3397122119": {
@@ -552,7 +552,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280517,
-      "netProfit": 9.702743,
+      "netProfit": 10.025251,
       "trailingStopLoss": false
     },
     "3568291071": {
@@ -567,7 +567,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140262,
-      "netProfit": -8.325,
+      "netProfit": -8.06,
       "trailingStopLoss": false
     },
     "3469506723": {
@@ -582,7 +582,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560627,
-      "netProfit": 7.922192,
+      "netProfit": 8.238679,
       "trailingStopLoss": false
     },
     "3568403674": {
@@ -597,7 +597,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140241,
-      "netProfit": -8.356253,
+      "netProfit": -8.086213,
       "trailingStopLoss": false
     },
     "3469997575": {
@@ -612,7 +612,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560914,
-      "netProfit": 7.906878,
+      "netProfit": 8.224453,
       "trailingStopLoss": false
     },
     "3469882776": {
@@ -627,7 +627,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561034,
-      "netProfit": 7.863947,
+      "netProfit": 8.180205,
       "trailingStopLoss": false
     },
     "3568153278": {
@@ -642,7 +642,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140248,
-      "netProfit": -8.175818,
+      "netProfit": -7.905791,
       "trailingStopLoss": false
     },
     "3479209832": {
@@ -657,7 +657,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 4.91,
+      "netProfit": 5.21875,
       "trailingStopLoss": false
     },
     "3469705588": {
@@ -672,7 +672,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560942,
-      "netProfit": 7.941489,
+      "netProfit": 8.259049,
       "trailingStopLoss": false
     },
     "3560469588": {
@@ -687,7 +687,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -5.636,
+      "netProfit": -5.358667,
       "trailingStopLoss": false
     },
     "3401136739": {
@@ -702,7 +702,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 9.5775,
+      "netProfit": 9.89875,
       "trailingStopLoss": false
     },
     "3568268790": {
@@ -717,7 +717,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140206,
-      "netProfit": -8.103241,
+      "netProfit": -7.833133,
       "trailingStopLoss": false
     },
     "3568099992": {
@@ -732,7 +732,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280341,
-      "netProfit": -8.167809,
+      "netProfit": -7.897633,
       "trailingStopLoss": false
     },
     "3470077043": {
@@ -747,7 +747,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 7.86875,
+      "netProfit": 8.185,
       "trailingStopLoss": false
     },
     "3397032344": {
@@ -762,7 +762,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.700896,
-      "netProfit": 9.744749,
+      "netProfit": 10.066939,
       "trailingStopLoss": false
     },
     "3481005854": {
@@ -777,7 +777,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560255,
-      "netProfit": -15.017462,
+      "netProfit": -14.850977,
       "trailingStopLoss": false
     },
     "3483405510": {
@@ -792,157 +792,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.222077,
-      "netProfit": -19.977263,
-      "trailingStopLoss": false
-    },
-    "3480973816": {
-      "positionId": 3480973816,
-      "openTimestamp": "2026-06-12T14:48:24.927Z",
-      "openRate": 120.6904,
-      "instrumentId": 1021,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1327.59,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.560676,
-      "netProfit": -15.130024,
-      "trailingStopLoss": false
-    },
-    "3483435922": {
-      "positionId": 3483435922,
-      "openTimestamp": "2026-06-15T18:19:36.913Z",
-      "openRate": 127.9576,
-      "instrumentId": 1021,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1407.53,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.560949,
-      "netProfit": -19.949741,
-      "trailingStopLoss": false
-    },
-    "3483471474": {
-      "positionId": 3483471474,
-      "openTimestamp": "2026-06-15T18:19:46.127Z",
-      "openRate": 128.0542,
-      "instrumentId": 1021,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1407.89,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": -20.01,
-      "trailingStopLoss": false
-    },
-    "3481015530": {
-      "positionId": 3481015530,
-      "openTimestamp": "2026-06-12T14:48:51.367Z",
-      "openRate": 120.5267,
-      "instrumentId": 1021,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1325.8,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.560199,
-      "netProfit": -15.015211,
-      "trailingStopLoss": false
-    },
-    "3483449638": {
-      "positionId": 3483449638,
-      "openTimestamp": "2026-06-15T18:19:40.843Z",
-      "openRate": 127.9925,
-      "instrumentId": 1021,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1407.92,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.560928,
-      "netProfit": -19.971744,
-      "trailingStopLoss": false
-    },
-    "3469826758": {
-      "positionId": 3469826758,
-      "openTimestamp": "2026-06-05T19:18:57.623Z",
-      "openRate": 311.6255,
-      "instrumentId": 1023,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 3427.05,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": 12.07,
-      "trailingStopLoss": false
-    },
-    "3568072708": {
-      "positionId": 3568072708,
-      "openTimestamp": "2026-09-03T19:54:46.03Z",
-      "openRate": 361.9838,
-      "instrumentId": 1023,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 3981.83,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.280412,
-      "netProfit": -3.521409,
-      "trailingStopLoss": false
-    },
-    "3479374809": {
-      "positionId": 3479374809,
-      "openTimestamp": "2026-06-11T17:52:34.717Z",
-      "openRate": 314.3086,
-      "instrumentId": 1023,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 3455.87,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": 11.11375,
-      "trailingStopLoss": false
-    },
-    "3560441411": {
-      "positionId": 3560441411,
-      "openTimestamp": "2026-08-27T14:24:41.363Z",
-      "openRate": 352.48,
-      "instrumentId": 1023,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 3877.28,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.504943,
-      "netProfit": -0.919444,
-      "trailingStopLoss": false
-    },
-    "3479262514": {
-      "positionId": 3479262514,
-      "openTimestamp": "2026-06-11T17:51:45.227Z",
-      "openRate": 313.9831,
-      "instrumentId": 1023,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 3451.8,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": 11.22875,
+      "netProfit": -19.819365,
       "trailingStopLoss": false
     },
     "3492254500": {
@@ -957,7 +807,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -1.1125,
+      "netProfit": -1.26,
       "trailingStopLoss": false
     },
     "3498523800": {
@@ -972,7 +822,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.39,
+      "netProfit": 3.295,
       "trailingStopLoss": false
     },
     "3475383751": {
@@ -987,7 +837,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 2.73375,
+      "netProfit": 2.895,
       "trailingStopLoss": false
     },
     "3497783251": {
@@ -1002,7 +852,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280454,
-      "netProfit": 2.508127,
+      "netProfit": 2.415604,
       "trailingStopLoss": false
     },
     "3541201451": {
@@ -1017,22 +867,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -8.694667,
-      "trailingStopLoss": false
-    },
-    "3574338602": {
-      "positionId": 3574338602,
-      "openTimestamp": "2026-09-10T10:05:47.027Z",
-      "openRate": 31.733,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 348.92,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -0.553333,
+      "netProfit": -8.776,
       "trailingStopLoss": false
     },
     "3497677053": {
@@ -1047,7 +882,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 2.51,
+      "netProfit": 2.4175,
       "trailingStopLoss": false
     },
     "3503720803": {
@@ -1062,7 +897,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.490917,
-      "netProfit": -6.772857,
+      "netProfit": -6.911429,
       "trailingStopLoss": false
     },
     "3568495003": {
@@ -1077,7 +912,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -6.095,
+      "netProfit": -5.93,
       "trailingStopLoss": false
     },
     "3484153604": {
@@ -1092,7 +927,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.559919,
-      "netProfit": -33.786746,
+      "netProfit": -33.771716,
       "trailingStopLoss": false
     },
     "3503599504": {
@@ -1107,37 +942,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.420281,
-      "netProfit": -13.973435,
-      "trailingStopLoss": false
-    },
-    "3546232054": {
-      "positionId": 3546232054,
-      "openTimestamp": "2026-08-14T19:57:46.87Z",
-      "openRate": 174.0574,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1914.0,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": 0.128,
-      "trailingStopLoss": false
-    },
-    "3560416304": {
-      "positionId": 3560416304,
-      "openTimestamp": "2026-08-27T14:24:30.81Z",
-      "openRate": 184.8633,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2031.59,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.490917,
-      "netProfit": -5.724286,
+      "netProfit": -13.838273,
       "trailingStopLoss": false
     },
     "3480627155": {
@@ -1152,7 +957,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -7.3775,
+      "netProfit": -7.23125,
       "trailingStopLoss": false
     },
     "3494356405": {
@@ -1167,7 +972,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 0.11375,
+      "netProfit": -0.035,
       "trailingStopLoss": false
     },
     "3494358055": {
@@ -1182,7 +987,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 0.1025,
+      "netProfit": -0.04625,
       "trailingStopLoss": false
     },
     "3498812605": {
@@ -1197,37 +1002,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -19.71,
-      "trailingStopLoss": false
-    },
-    "3549758355": {
-      "positionId": 3549758355,
-      "openTimestamp": "2026-08-18T19:30:56.59Z",
-      "openRate": 172.6363,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1896.73,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": 0.952,
-      "trailingStopLoss": false
-    },
-    "3576303755": {
-      "positionId": 3576303755,
-      "openTimestamp": "2026-09-11T13:00:01.56Z",
-      "openRate": 32.155,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 353.595,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -1.56,
+      "netProfit": -19.58375,
       "trailingStopLoss": false
     },
     "3538895706": {
@@ -1242,7 +1017,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.535289,
-      "netProfit": -0.847669,
+      "netProfit": -0.673418,
       "trailingStopLoss": false
     },
     "3568468956": {
@@ -1257,22 +1032,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -6.08,
-      "trailingStopLoss": false
-    },
-    "3576276006": {
-      "positionId": 3576276006,
-      "openTimestamp": "2026-09-11T12:59:51.767Z",
-      "openRate": 32.15,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 353.54,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -1.550667,
+      "netProfit": -5.9125,
       "trailingStopLoss": false
     },
     "3490942457": {
@@ -1287,7 +1047,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -4.8775,
+      "netProfit": -5.01875,
       "trailingStopLoss": false
     },
     "3503711107": {
@@ -1302,37 +1062,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.490917,
-      "netProfit": -6.752857,
-      "trailingStopLoss": false
-    },
-    "3544781207": {
-      "positionId": 3544781207,
-      "openTimestamp": "2026-08-13T17:56:43.66Z",
-      "openRate": 176.3364,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1939.7,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.701176,
-      "netProfit": -1.166222,
-      "trailingStopLoss": false
-    },
-    "3568924457": {
-      "positionId": 3568924457,
-      "openTimestamp": "2026-09-04T13:05:26.207Z",
-      "openRate": 31.792,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 349.69,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -0.412,
+      "netProfit": -6.891429,
       "trailingStopLoss": false
     },
     "3574470907": {
@@ -1347,37 +1077,52 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.794667,
+      "netProfit": -0.882667,
       "trailingStopLoss": false
     },
-    "3546123408": {
-      "positionId": 3546123408,
-      "openTimestamp": "2026-08-14T19:55:39.853Z",
-      "openRate": 174.269,
-      "instrumentId": 7991,
+    "3469826758": {
+      "positionId": 3469826758,
+      "openTimestamp": "2026-06-05T19:18:57.623Z",
+      "openRate": 311.6255,
+      "instrumentId": 1023,
       "isBuy": true,
       "leverage": 1,
-      "takeProfitRate": 1916.64,
+      "takeProfitRate": 3427.05,
       "stopLossRate": 0.0001,
       "socialTradeId": 0,
       "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": 0.006667,
+      "investmentPct": 0.561048,
+      "netProfit": 12.31375,
       "trailingStopLoss": false
     },
-    "3546285308": {
-      "positionId": 3546285308,
-      "openTimestamp": "2026-08-14T19:58:11.113Z",
-      "openRate": 174.0774,
-      "instrumentId": 7991,
+    "3568072708": {
+      "positionId": 3568072708,
+      "openTimestamp": "2026-09-03T19:54:46.03Z",
+      "openRate": 361.9838,
+      "instrumentId": 1023,
       "isBuy": true,
       "leverage": 1,
-      "takeProfitRate": 1914.22,
+      "takeProfitRate": 3981.83,
       "stopLossRate": 0.0001,
       "socialTradeId": 0,
       "parentPositionId": 0,
-      "investmentPct": 0.175327,
-      "netProfit": 0.116,
+      "investmentPct": 0.280412,
+      "netProfit": -3.311325,
+      "trailingStopLoss": false
+    },
+    "3479374809": {
+      "positionId": 3479374809,
+      "openTimestamp": "2026-06-11T17:52:34.717Z",
+      "openRate": 314.3086,
+      "instrumentId": 1023,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 3455.87,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.561048,
+      "netProfit": 11.355,
       "trailingStopLoss": false
     },
     "3541255359": {
@@ -1392,7 +1137,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.574969,
-      "netProfit": -8.686955,
+      "netProfit": -8.768677,
       "trailingStopLoss": false
     },
     "3497622360": {
@@ -1407,22 +1152,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560655,
-      "netProfit": 2.569299,
-      "trailingStopLoss": false
-    },
-    "3567988310": {
-      "positionId": 3567988310,
-      "openTimestamp": "2026-09-03T19:47:36.087Z",
-      "openRate": 183.1895,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2015.08,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -4.864,
+      "netProfit": 2.477985,
       "trailingStopLoss": false
     },
     "3475315911": {
@@ -1437,7 +1167,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 3.655,
+      "netProfit": 3.81875,
       "trailingStopLoss": false
     },
     "3497651661": {
@@ -1452,22 +1182,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280503,
-      "netProfit": 2.577693,
+      "netProfit": 2.485186,
       "trailingStopLoss": false
     },
-    "3574365112": {
-      "positionId": 3574365112,
-      "openTimestamp": "2026-09-10T10:06:03.513Z",
-      "openRate": 31.728,
-      "instrumentId": 5733,
+    "3560441411": {
+      "positionId": 3560441411,
+      "openTimestamp": "2026-08-27T14:24:41.363Z",
+      "openRate": 352.48,
+      "instrumentId": 1023,
       "isBuy": true,
       "leverage": 1,
-      "takeProfitRate": 348.92,
-      "stopLossRate": 0.001,
+      "takeProfitRate": 3877.28,
+      "stopLossRate": 0.0001,
       "socialTradeId": 0,
       "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -0.538667,
+      "investmentPct": 0.504943,
+      "netProfit": -0.704167,
       "trailingStopLoss": false
     },
     "3476848364": {
@@ -1482,7 +1212,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 6.28875,
+      "netProfit": 6.47625,
+      "trailingStopLoss": false
+    },
+    "3479262514": {
+      "positionId": 3479262514,
+      "openTimestamp": "2026-06-11T17:51:45.227Z",
+      "openRate": 313.9831,
+      "instrumentId": 1023,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 3451.8,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.561048,
+      "netProfit": 11.47125,
       "trailingStopLoss": false
     },
     "3489835514": {
@@ -1497,7 +1242,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560872,
-      "netProfit": -6.396999,
+      "netProfit": -6.535792,
       "trailingStopLoss": false
     },
     "3509526964": {
@@ -1512,22 +1257,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.630435,
-      "netProfit": 0.818742,
-      "trailingStopLoss": false
-    },
-    "3549732014": {
-      "positionId": 3549732014,
-      "openTimestamp": "2026-08-18T19:30:47.303Z",
-      "openRate": 172.5374,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1896.07,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": 1.009333,
+      "netProfit": 0.668565,
       "trailingStopLoss": false
     },
     "3574474364": {
@@ -1542,7 +1272,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.857333,
+      "netProfit": -0.946667,
       "trailingStopLoss": false
     },
     "3489887065": {
@@ -1557,7 +1287,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560907,
-      "netProfit": -6.402851,
+      "netProfit": -6.541635,
       "trailingStopLoss": false
     },
     "3498549765": {
@@ -1572,7 +1302,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.34,
+      "netProfit": 3.2475,
       "trailingStopLoss": false
     },
     "3469499066": {
@@ -1587,7 +1317,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560739,
-      "netProfit": 12.136675,
+      "netProfit": 12.38181,
+      "trailingStopLoss": false
+    },
+    "3480973816": {
+      "positionId": 3480973816,
+      "openTimestamp": "2026-06-12T14:48:24.927Z",
+      "openRate": 120.6904,
+      "instrumentId": 1021,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1327.59,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.560676,
+      "netProfit": -14.963663,
       "trailingStopLoss": false
     },
     "3491499266": {
@@ -1602,7 +1347,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -3.385,
+      "netProfit": -3.5275,
       "trailingStopLoss": false
     },
     "3538945766": {
@@ -1617,22 +1362,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.77595,
-      "netProfit": -0.93996,
-      "trailingStopLoss": false
-    },
-    "3556265516": {
-      "positionId": 3556265516,
-      "openTimestamp": "2026-08-25T13:49:33.157Z",
-      "openRate": 179.3819,
-      "instrumentId": 7991,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 1973.19,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525723,
-      "netProfit": -2.84407,
+      "netProfit": -0.764621,
       "trailingStopLoss": false
     },
     "3396900617": {
@@ -1647,7 +1377,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70131,
-      "netProfit": 12.224,
+      "netProfit": 12.468,
       "trailingStopLoss": false
     },
     "3475099767": {
@@ -1662,7 +1392,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.121506,
-      "netProfit": 5.368443,
+      "netProfit": 5.554166,
       "trailingStopLoss": false
     },
     "3498811118": {
@@ -1677,7 +1407,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560557,
-      "netProfit": -19.683473,
+      "netProfit": -19.557112,
       "trailingStopLoss": false
     },
     "3476908319": {
@@ -1692,7 +1422,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 3.97625,
+      "netProfit": 4.14,
       "trailingStopLoss": false
     },
     "3497769669": {
@@ -1707,7 +1437,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 2.42,
+      "netProfit": 2.3275,
       "trailingStopLoss": false
     },
     "3574444869": {
@@ -1722,7 +1452,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.781333,
+      "netProfit": -0.870667,
       "trailingStopLoss": false
     },
     "3401067820": {
@@ -1737,7 +1467,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561041,
-      "netProfit": 12.481406,
+      "netProfit": 12.726409,
       "trailingStopLoss": false
     },
     "3476818570": {
@@ -1752,7 +1482,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561013,
-      "netProfit": 3.962748,
+      "netProfit": 4.126508,
       "trailingStopLoss": false
     },
     "3489774420": {
@@ -1767,7 +1497,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -6.41125,
+      "netProfit": -6.55125,
       "trailingStopLoss": false
     },
     "3498639870": {
@@ -1782,7 +1512,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.3375,
+      "netProfit": 3.245,
       "trailingStopLoss": false
     },
     "3489722921": {
@@ -1797,7 +1527,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.559876,
-      "netProfit": -6.394599,
+      "netProfit": -6.533639,
+      "trailingStopLoss": false
+    },
+    "3483435922": {
+      "positionId": 3483435922,
+      "openTimestamp": "2026-06-15T18:19:36.913Z",
+      "openRate": 127.9576,
+      "instrumentId": 1021,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1407.53,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.560949,
+      "netProfit": -19.793464,
       "trailingStopLoss": false
     },
     "3476879273": {
@@ -1812,7 +1557,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.121485,
-      "netProfit": 6.344075,
+      "netProfit": 6.532302,
       "trailingStopLoss": false
     },
     "3478404123": {
@@ -1827,7 +1572,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -26.53125,
+      "netProfit": -26.515,
       "trailingStopLoss": false
     },
     "3490972173": {
@@ -1842,52 +1587,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560669,
-      "netProfit": -4.780727,
+      "netProfit": -4.922072,
       "trailingStopLoss": false
     },
-    "3576228174": {
-      "positionId": 3576228174,
-      "openTimestamp": "2026-09-11T12:59:38.42Z",
-      "openRate": 32.14,
-      "instrumentId": 5733,
+    "3483471474": {
+      "positionId": 3483471474,
+      "openTimestamp": "2026-06-15T18:19:46.127Z",
+      "openRate": 128.0542,
+      "instrumentId": 1021,
       "isBuy": true,
       "leverage": 1,
-      "takeProfitRate": 353.54,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -1.52,
-      "trailingStopLoss": false
-    },
-    "3576248374": {
-      "positionId": 3576248374,
-      "openTimestamp": "2026-09-11T12:59:44.027Z",
-      "openRate": 32.143,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 353.575,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525975,
-      "netProfit": -1.526687,
-      "trailingStopLoss": false
-    },
-    "3478373026": {
-      "positionId": 3478373026,
-      "openTimestamp": "2026-06-11T13:54:07.503Z",
-      "openRate": 229.6749,
-      "instrumentId": 4317,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2521.46,
+      "takeProfitRate": 1407.89,
       "stopLossRate": 0.0001,
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -26.5225,
+      "netProfit": -19.85375,
       "trailingStopLoss": false
     },
     "3487413576": {
@@ -1902,7 +1617,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560416,
-      "netProfit": -15.698911,
+      "netProfit": -15.566262,
       "trailingStopLoss": false
     },
     "3484033527": {
@@ -1917,7 +1632,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -13.6375,
+      "netProfit": -13.50125,
       "trailingStopLoss": false
     },
     "3497812978": {
@@ -1932,22 +1647,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 2.47,
-      "trailingStopLoss": false
-    },
-    "3484124929": {
-      "positionId": 3484124929,
-      "openTimestamp": "2026-06-15T18:32:32.937Z",
-      "openRate": 254.9391,
-      "instrumentId": 4317,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2803.79,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": -33.80375,
+      "netProfit": 2.3775,
       "trailingStopLoss": false
     },
     "3492255879": {
@@ -1962,7 +1662,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -1.12625,
+      "netProfit": -1.2725,
       "trailingStopLoss": false
     },
     "3498586579": {
@@ -1977,37 +1677,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280243,
-      "netProfit": 3.433433,
+      "netProfit": 3.340841,
       "trailingStopLoss": false
     },
-    "3484124930": {
-      "positionId": 3484124930,
-      "openTimestamp": "2026-06-15T18:32:33.33Z",
-      "openRate": 254.9636,
-      "instrumentId": 4317,
+    "3481015530": {
+      "positionId": 3481015530,
+      "openTimestamp": "2026-06-12T14:48:51.367Z",
+      "openRate": 120.5267,
+      "instrumentId": 1021,
       "isBuy": true,
       "leverage": 1,
-      "takeProfitRate": 2804.58,
+      "takeProfitRate": 1325.8,
       "stopLossRate": 0.0001,
       "socialTradeId": 0,
       "parentPositionId": 0,
-      "investmentPct": 0.560613,
-      "netProfit": -33.809953,
-      "trailingStopLoss": false
-    },
-    "3487369680": {
-      "positionId": 3487369680,
-      "openTimestamp": "2026-06-18T13:53:04.283Z",
-      "openRate": 255.8758,
-      "instrumentId": 4317,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2811.71,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.448838,
-      "netProfit": -34.045312,
+      "investmentPct": 0.560199,
+      "netProfit": -14.848709,
       "trailingStopLoss": false
     },
     "3490985080": {
@@ -2022,7 +1707,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560311,
-      "netProfit": -4.766256,
+      "netProfit": -4.907691,
       "trailingStopLoss": false
     },
     "3568381230": {
@@ -2037,7 +1722,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140171,
-      "netProfit": -3.717416,
+      "netProfit": -3.50728,
       "trailingStopLoss": false
     },
     "3469974881": {
@@ -2052,7 +1737,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560851,
-      "netProfit": 12.148002,
+      "netProfit": 12.391837,
       "trailingStopLoss": false
     },
     "3560520681": {
@@ -2067,7 +1752,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.981333,
+      "netProfit": -0.766667,
       "trailingStopLoss": false
     },
     "3568425981": {
@@ -2082,22 +1767,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140241,
-      "netProfit": -3.765565,
-      "trailingStopLoss": false
-    },
-    "3568871831": {
-      "positionId": 3568871831,
-      "openTimestamp": "2026-09-04T13:05:01.677Z",
-      "openRate": 31.785,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 349.637,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525835,
-      "netProfit": -0.386775,
+      "netProfit": -3.555533,
       "trailingStopLoss": false
     },
     "3476787882": {
@@ -2112,7 +1782,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560213,
-      "netProfit": 3.972159,
+      "netProfit": 4.136153,
       "trailingStopLoss": false
     },
     "3491531032": {
@@ -2127,7 +1797,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -4.04,
+      "netProfit": -4.185,
       "trailingStopLoss": false
     },
     "3498625782": {
@@ -2142,7 +1812,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.4275,
+      "netProfit": 3.335,
       "trailingStopLoss": false
     },
     "3475037533": {
@@ -2157,7 +1827,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 5.351875,
+      "netProfit": 5.538125,
       "trailingStopLoss": false
     },
     "3540657533": {
@@ -2172,37 +1842,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.490601,
-      "netProfit": -1.043528,
-      "trailingStopLoss": false
-    },
-    "3560625233": {
-      "positionId": 3560625233,
-      "openTimestamp": "2026-08-27T15:04:21.507Z",
-      "openRate": 30.07,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 330.768,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.166449,
-      "netProfit": 4.862223,
-      "trailingStopLoss": false
-    },
-    "3560649183": {
-      "positionId": 3560649183,
-      "openTimestamp": "2026-08-27T15:04:51.557Z",
-      "openRate": 30.055,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 330.609,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.665164,
-      "netProfit": 4.898467,
+      "netProfit": -0.86913,
       "trailingStopLoss": false
     },
     "3397185285": {
@@ -2217,7 +1857,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280433,
-      "netProfit": 12.33901,
+      "netProfit": 12.58409,
       "trailingStopLoss": false
     },
     "3478436285": {
@@ -2232,7 +1872,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560227,
-      "netProfit": 1.503449,
+      "netProfit": 1.663683,
       "trailingStopLoss": false
     },
     "3512907135": {
@@ -2247,22 +1887,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.122095,
-      "netProfit": 2.43375,
-      "trailingStopLoss": false
-    },
-    "3560676435": {
-      "positionId": 3560676435,
-      "openTimestamp": "2026-08-27T15:05:59.003Z",
-      "openRate": 30.035,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 330.385,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.166252,
-      "netProfit": 4.969206,
+      "netProfit": 2.615,
       "trailingStopLoss": false
     },
     "3568193385": {
@@ -2277,7 +1902,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140262,
-      "netProfit": -3.56,
+      "netProfit": -3.35,
       "trailingStopLoss": false
     },
     "3576906635": {
@@ -2292,22 +1917,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.381814,
-      "netProfit": 0.427971,
-      "trailingStopLoss": false
-    },
-    "3484094886": {
-      "positionId": 3484094886,
-      "openTimestamp": "2026-06-15T18:32:10.347Z",
-      "openRate": 255.2639,
-      "instrumentId": 4317,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2802.91,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.561048,
-      "netProfit": -33.8875,
+      "netProfit": 0.277354,
       "trailingStopLoss": false
     },
     "3498875086": {
@@ -2322,7 +1932,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560739,
-      "netProfit": -19.660813,
+      "netProfit": -19.533243,
       "trailingStopLoss": false
     },
     "3503729686": {
@@ -2337,37 +1947,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.422455,
-      "netProfit": -6.773133,
-      "trailingStopLoss": false
-    },
-    "3568897486": {
-      "positionId": 3568897486,
-      "openTimestamp": "2026-09-04T13:05:11.85Z",
-      "openRate": 31.775,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 349.529,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525709,
-      "netProfit": -0.350849,
-      "trailingStopLoss": false
-    },
-    "3568949436": {
-      "positionId": 3568949436,
-      "openTimestamp": "2026-09-04T13:05:34.37Z",
-      "openRate": 31.798,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 349.58,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.527357,
-      "netProfit": -0.440183,
+      "netProfit": -6.91092,
       "trailingStopLoss": false
     },
     "3540630337": {
@@ -2382,7 +1962,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560886,
-      "netProfit": -0.971529,
+      "netProfit": -0.796479,
+      "trailingStopLoss": false
+    },
+    "3483449638": {
+      "positionId": 3483449638,
+      "openTimestamp": "2026-06-15T18:19:40.843Z",
+      "openRate": 127.9925,
+      "instrumentId": 1021,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1407.92,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.560928,
+      "netProfit": -19.815461,
       "trailingStopLoss": false
     },
     "3497702738": {
@@ -2397,7 +1992,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 2.42,
+      "netProfit": 2.3275,
       "trailingStopLoss": false
     },
     "3568313438": {
@@ -2412,22 +2007,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140192,
-      "netProfit": -3.736868,
-      "trailingStopLoss": false
-    },
-    "3574392838": {
-      "positionId": 3574392838,
-      "openTimestamp": "2026-09-10T10:06:14.997Z",
-      "openRate": 31.731,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 348.92,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -0.549333,
+      "netProfit": -3.526763,
       "trailingStopLoss": false
     },
     "3476757739": {
@@ -2442,7 +2022,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560879,
-      "netProfit": 3.892418,
+      "netProfit": 4.056217,
       "trailingStopLoss": false
     },
     "3497753139": {
@@ -2457,7 +2037,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 2.4425,
+      "netProfit": 2.3525,
       "trailingStopLoss": false
     },
     "3397094991": {
@@ -2472,7 +2052,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.701197,
-      "netProfit": 12.349976,
+      "netProfit": 12.594015,
       "trailingStopLoss": false
     },
     "3490986841": {
@@ -2487,7 +2067,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560438,
-      "netProfit": -4.768936,
+      "netProfit": -4.91034,
       "trailingStopLoss": false
     },
     "3538922691": {
@@ -2502,7 +2082,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70131,
-      "netProfit": -0.992,
+      "netProfit": -0.817,
       "trailingStopLoss": false
     },
     "3568224091": {
@@ -2517,7 +2097,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140262,
-      "netProfit": -3.555,
+      "netProfit": -3.345,
       "trailingStopLoss": false
     },
     "3491575342": {
@@ -2532,7 +2112,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -4.1475,
+      "netProfit": -4.29,
       "trailingStopLoss": false
     },
     "3498580592": {
@@ -2547,7 +2127,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.425,
+      "netProfit": 3.3325,
       "trailingStopLoss": false
     },
     "3498785892": {
@@ -2562,7 +2142,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560171,
-      "netProfit": -19.618153,
+      "netProfit": -19.491706,
       "trailingStopLoss": false
     },
     "3541220192": {
@@ -2577,7 +2157,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -8.710667,
+      "netProfit": -8.792,
       "trailingStopLoss": false
     },
     "3498518693": {
@@ -2592,7 +2172,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.4775,
+      "netProfit": 3.385,
       "trailingStopLoss": false
     },
     "3498658443": {
@@ -2607,22 +2187,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": 3.315,
-      "trailingStopLoss": false
-    },
-    "3574312593": {
-      "positionId": 3574312593,
-      "openTimestamp": "2026-09-10T10:05:37.09Z",
-      "openRate": 31.72,
-      "instrumentId": 5733,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 348.92,
-      "stopLossRate": 0.001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.525982,
-      "netProfit": -0.514667,
+      "netProfit": 3.2225,
       "trailingStopLoss": false
     },
     "3401072244": {
@@ -2637,7 +2202,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": 12.45875,
+      "netProfit": 12.70375,
       "trailingStopLoss": false
     },
     "3478469394": {
@@ -2652,7 +2217,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.559982,
-      "netProfit": 1.55796,
+      "netProfit": 1.718265,
       "trailingStopLoss": false
     },
     "3503579344": {
@@ -2667,7 +2232,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.420786,
-      "netProfit": -14.075,
+      "netProfit": -13.94,
       "trailingStopLoss": false
     },
     "3574413394": {
@@ -2682,7 +2247,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -0.758667,
+      "netProfit": -0.848,
       "trailingStopLoss": false
     },
     "3475353895": {
@@ -2697,7 +2262,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560767,
-      "netProfit": 2.772636,
+      "netProfit": 2.933967,
       "trailingStopLoss": false
     },
     "3491524595": {
@@ -2712,7 +2277,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280524,
-      "netProfit": -3.91,
+      "netProfit": -4.0525,
       "trailingStopLoss": false
     },
     "3576906545": {
@@ -2727,7 +2292,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": 0.432,
+      "netProfit": 0.282667,
       "trailingStopLoss": false
     },
     "3469698696": {
@@ -2742,7 +2307,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.560823,
-      "netProfit": 12.181122,
+      "netProfit": 12.42622,
       "trailingStopLoss": false
     },
     "3480657047": {
@@ -2757,22 +2322,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.561048,
-      "netProfit": -7.7375,
-      "trailingStopLoss": false
-    },
-    "3487201848": {
-      "positionId": 3487201848,
-      "openTimestamp": "2026-06-18T13:52:05.31Z",
-      "openRate": 255.9306,
-      "instrumentId": 4317,
-      "isBuy": true,
-      "leverage": 1,
-      "takeProfitRate": 2811.27,
-      "stopLossRate": 0.0001,
-      "socialTradeId": 0,
-      "parentPositionId": 0,
-      "investmentPct": 0.448838,
-      "netProfit": -34.060938,
+      "netProfit": -7.5925,
       "trailingStopLoss": false
     },
     "3497725398": {
@@ -2787,7 +2337,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.280447,
-      "netProfit": 2.513191,
+      "netProfit": 2.420666,
       "trailingStopLoss": false
     },
     "3512936548": {
@@ -2802,7 +2352,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 1.07752,
-      "netProfit": 2.401005,
+      "netProfit": 2.581943,
       "trailingStopLoss": false
     },
     "3568234398": {
@@ -2817,7 +2367,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.140255,
-      "netProfit": -3.540177,
+      "netProfit": -3.330167,
       "trailingStopLoss": false
     },
     "3469906949": {
@@ -2832,7 +2382,217 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.56083,
-      "netProfit": 12.108442,
+      "netProfit": 12.352287,
+      "trailingStopLoss": false
+    },
+    "3574338602": {
+      "positionId": 3574338602,
+      "openTimestamp": "2026-09-10T10:05:47.027Z",
+      "openRate": 31.733,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 348.92,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -0.636,
+      "trailingStopLoss": false
+    },
+    "3546232054": {
+      "positionId": 3546232054,
+      "openTimestamp": "2026-08-14T19:57:46.87Z",
+      "openRate": 174.0574,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1914.0,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": 0.772,
+      "trailingStopLoss": false
+    },
+    "3560416304": {
+      "positionId": 3560416304,
+      "openTimestamp": "2026-08-27T14:24:30.81Z",
+      "openRate": 184.8633,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2031.59,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.490917,
+      "netProfit": -5.118571,
+      "trailingStopLoss": false
+    },
+    "3549758355": {
+      "positionId": 3549758355,
+      "openTimestamp": "2026-08-18T19:30:56.59Z",
+      "openRate": 172.6363,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1896.73,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": 1.601333,
+      "trailingStopLoss": false
+    },
+    "3576303755": {
+      "positionId": 3576303755,
+      "openTimestamp": "2026-09-11T13:00:01.56Z",
+      "openRate": 32.155,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 353.595,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -1.641333,
+      "trailingStopLoss": false
+    },
+    "3576276006": {
+      "positionId": 3576276006,
+      "openTimestamp": "2026-09-11T12:59:51.767Z",
+      "openRate": 32.15,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 353.54,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -1.632,
+      "trailingStopLoss": false
+    },
+    "3544781207": {
+      "positionId": 3544781207,
+      "openTimestamp": "2026-08-13T17:56:43.66Z",
+      "openRate": 176.3364,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1939.7,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.701176,
+      "netProfit": -0.531101,
+      "trailingStopLoss": false
+    },
+    "3568924457": {
+      "positionId": 3568924457,
+      "openTimestamp": "2026-09-04T13:05:26.207Z",
+      "openRate": 31.792,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 349.69,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -0.494667,
+      "trailingStopLoss": false
+    },
+    "3546123408": {
+      "positionId": 3546123408,
+      "openTimestamp": "2026-08-14T19:55:39.853Z",
+      "openRate": 174.269,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1916.64,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": 0.649333,
+      "trailingStopLoss": false
+    },
+    "3546285308": {
+      "positionId": 3546285308,
+      "openTimestamp": "2026-08-14T19:58:11.113Z",
+      "openRate": 174.0774,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1914.22,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.175327,
+      "netProfit": 0.76,
+      "trailingStopLoss": false
+    },
+    "3567988310": {
+      "positionId": 3567988310,
+      "openTimestamp": "2026-09-03T19:47:36.087Z",
+      "openRate": 183.1895,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2015.08,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -4.252,
+      "trailingStopLoss": false
+    },
+    "3574365112": {
+      "positionId": 3574365112,
+      "openTimestamp": "2026-09-10T10:06:03.513Z",
+      "openRate": 31.728,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 348.92,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -0.621333,
+      "trailingStopLoss": false
+    },
+    "3549732014": {
+      "positionId": 3549732014,
+      "openTimestamp": "2026-08-18T19:30:47.303Z",
+      "openRate": 172.5374,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1896.07,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": 1.658667,
+      "trailingStopLoss": false
+    },
+    "3556265516": {
+      "positionId": 3556265516,
+      "openTimestamp": "2026-08-25T13:49:33.157Z",
+      "openRate": 179.3819,
+      "instrumentId": 7991,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 1973.19,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525723,
+      "netProfit": -2.219762,
       "trailingStopLoss": false
     },
     "3549543367": {
@@ -2847,7 +2607,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525863,
-      "netProfit": 1.225611,
+      "netProfit": 1.876425,
       "trailingStopLoss": false
     },
     "3560391824": {
@@ -2862,7 +2622,37 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525639,
-      "netProfit": -5.655695,
+      "netProfit": -5.049966,
+      "trailingStopLoss": false
+    },
+    "3576228174": {
+      "positionId": 3576228174,
+      "openTimestamp": "2026-09-11T12:59:38.42Z",
+      "openRate": 32.14,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 353.54,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -1.601333,
+      "trailingStopLoss": false
+    },
+    "3576248374": {
+      "positionId": 3576248374,
+      "openTimestamp": "2026-09-11T12:59:44.027Z",
+      "openRate": 32.143,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 353.575,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525975,
+      "netProfit": -1.609355,
       "trailingStopLoss": false
     },
     "3544754075": {
@@ -2877,7 +2667,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.70131,
-      "netProfit": -1.197,
+      "netProfit": -0.562,
       "trailingStopLoss": false
     },
     "3544810425": {
@@ -2892,7 +2682,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.170355,
-      "netProfit": -1.144457,
+      "netProfit": -0.510477,
+      "trailingStopLoss": false
+    },
+    "3478373026": {
+      "positionId": 3478373026,
+      "openTimestamp": "2026-06-11T13:54:07.503Z",
+      "openRate": 229.6749,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2521.46,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.561048,
+      "netProfit": -26.505,
       "trailingStopLoss": false
     },
     "3556345026": {
@@ -2907,7 +2712,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.11108,
-      "netProfit": -2.961046,
+      "netProfit": -2.336006,
       "trailingStopLoss": false
     },
     "3546177227": {
@@ -2922,7 +2727,157 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525772,
-      "netProfit": 0.057356,
+      "netProfit": 0.70028,
+      "trailingStopLoss": false
+    },
+    "3484124929": {
+      "positionId": 3484124929,
+      "openTimestamp": "2026-06-15T18:32:32.937Z",
+      "openRate": 254.9391,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2803.79,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.561048,
+      "netProfit": -33.7875,
+      "trailingStopLoss": false
+    },
+    "3484124930": {
+      "positionId": 3484124930,
+      "openTimestamp": "2026-06-15T18:32:33.33Z",
+      "openRate": 254.9636,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2804.58,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.560613,
+      "netProfit": -33.794941,
+      "trailingStopLoss": false
+    },
+    "3487369680": {
+      "positionId": 3487369680,
+      "openTimestamp": "2026-06-18T13:53:04.283Z",
+      "openRate": 255.8758,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2811.71,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.448838,
+      "netProfit": -34.029688,
+      "trailingStopLoss": false
+    },
+    "3568871831": {
+      "positionId": 3568871831,
+      "openTimestamp": "2026-09-04T13:05:01.677Z",
+      "openRate": 31.785,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 349.637,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525835,
+      "netProfit": -0.469465,
+      "trailingStopLoss": false
+    },
+    "3560625233": {
+      "positionId": 3560625233,
+      "openTimestamp": "2026-08-27T15:04:21.507Z",
+      "openRate": 30.07,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 330.768,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.166449,
+      "netProfit": 4.773742,
+      "trailingStopLoss": false
+    },
+    "3560649183": {
+      "positionId": 3560649183,
+      "openTimestamp": "2026-08-27T15:04:51.557Z",
+      "openRate": 30.055,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 330.609,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.665164,
+      "netProfit": 4.812011,
+      "trailingStopLoss": false
+    },
+    "3560676435": {
+      "positionId": 3560676435,
+      "openTimestamp": "2026-08-27T15:05:59.003Z",
+      "openRate": 30.035,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 330.385,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.166252,
+      "netProfit": 4.884839,
+      "trailingStopLoss": false
+    },
+    "3484094886": {
+      "positionId": 3484094886,
+      "openTimestamp": "2026-06-15T18:32:10.347Z",
+      "openRate": 255.2639,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2802.91,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.561048,
+      "netProfit": -33.8725,
+      "trailingStopLoss": false
+    },
+    "3568897486": {
+      "positionId": 3568897486,
+      "openTimestamp": "2026-09-04T13:05:11.85Z",
+      "openRate": 31.775,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 349.529,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525709,
+      "netProfit": -0.433559,
+      "trailingStopLoss": false
+    },
+    "3568949436": {
+      "positionId": 3568949436,
+      "openTimestamp": "2026-09-04T13:05:34.37Z",
+      "openRate": 31.798,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 349.58,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.527357,
+      "netProfit": -0.522634,
       "trailingStopLoss": false
     },
     "3549543338": {
@@ -2937,7 +2892,37 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": 1.225333,
+      "netProfit": 1.876,
+      "trailingStopLoss": false
+    },
+    "3574392838": {
+      "positionId": 3574392838,
+      "openTimestamp": "2026-09-10T10:06:14.997Z",
+      "openRate": 31.731,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 348.92,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -0.632,
+      "trailingStopLoss": false
+    },
+    "3574312593": {
+      "positionId": 3574312593,
+      "openTimestamp": "2026-09-10T10:05:37.09Z",
+      "openRate": 31.72,
+      "instrumentId": 5733,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 348.92,
+      "stopLossRate": 0.001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.525982,
+      "netProfit": -0.597333,
       "trailingStopLoss": false
     },
     "3567963095": {
@@ -2952,7 +2937,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": -4.86,
+      "netProfit": -4.249333,
       "trailingStopLoss": false
     },
     "3549806596": {
@@ -2967,7 +2952,7 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525982,
-      "netProfit": 0.930667,
+      "netProfit": 1.58,
       "trailingStopLoss": false
     },
     "3556275197": {
@@ -2982,7 +2967,22 @@
       "socialTradeId": 0,
       "parentPositionId": 0,
       "investmentPct": 0.525744,
-      "netProfit": -2.83195,
+      "netProfit": -2.207667,
+      "trailingStopLoss": false
+    },
+    "3487201848": {
+      "positionId": 3487201848,
+      "openTimestamp": "2026-06-18T13:52:05.31Z",
+      "openRate": 255.9306,
+      "instrumentId": 4317,
+      "isBuy": true,
+      "leverage": 1,
+      "takeProfitRate": 2811.27,
+      "stopLossRate": 0.0001,
+      "socialTradeId": 0,
+      "parentPositionId": 0,
+      "investmentPct": 0.448838,
+      "netProfit": -34.045312,
       "trailingStopLoss": false
     }
   },
@@ -7406,6 +7406,18 @@
     {
       "date": "2026-09-16",
       "value": 25770
+    },
+    {
+      "date": "2026-09-17",
+      "value": 25762
+    },
+    {
+      "date": "2026-09-17",
+      "value": 25758
+    },
+    {
+      "date": "2026-09-17",
+      "value": 25766
     }
   ],
   "treemapMarketCache": {
