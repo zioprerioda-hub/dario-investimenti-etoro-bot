@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub Actions supports a minimum native schedule interval of 5 minutes.
-    # Each scheduled job stays alive for five cycles and sends one report per minute.
+    # Keep one runner alive for five cycles so Telegram receives one report per minute.
     - cron: "*/5 * * * *"
 
 permissions:
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 7
+    timeout-minutes: 8
     env:
       ETORO_API_KEY: ${{ secrets.ETORO_API_KEY }}
       ETORO_USER_KEY: ${{ secrets.ETORO_USER_KEY }}
@@ -63,21 +63,45 @@ jobs:
       - name: Monitor eToro and deliver one report per minute
         shell: bash
         run: |
-          set -e
+          # Do NOT use `set -e` here: one transient eToro/Telegram failure must
+          # never terminate the remaining minute cycles.
+          set +e
 
-          # A manual run sends one report immediately.
-          # A scheduled run sends five reports, one approximately every minute,
-          # bridging GitHub Actions' native 5-minute minimum cron interval.
-          if [ "$EVENT_NAME" = "schedule" ]; then
-            iterations=5
-          else
-            iterations=1
-          fi
+          # Always run five cycles. This also makes a manual test reproduce the
+          # real scheduled behaviour instead of sending only one report.
+          iterations=5
+          successful_cycles=0
+          failed_cycles=0
 
           for i in $(seq 1 "$iterations"); do
             cycle_start=$(date +%s)
             echo "===== Report cycle $i/$iterations at $(date -u +'%Y-%m-%dT%H:%M:%SZ') ====="
-            python scheduled_runner.py
+
+            # Retry the individual minute once for transient API/network errors.
+            cycle_ok=0
+            for attempt in 1 2; do
+              echo "Cycle $i attempt $attempt/2"
+              python scheduled_runner.py
+              rc=$?
+
+              if [ "$rc" -eq 0 ]; then
+                cycle_ok=1
+                successful_cycles=$((successful_cycles + 1))
+                echo "Cycle $i delivered successfully."
+                break
+              fi
+
+              echo "::warning::Cycle $i attempt $attempt failed with exit code $rc."
+              if [ "$attempt" -lt 2 ]; then
+                echo "Retrying this minute in 5 seconds..."
+                sleep 5
+              fi
+            done
+
+            if [ "$cycle_ok" -ne 1 ]; then
+              failed_cycles=$((failed_cycles + 1))
+              echo "::warning::Cycle $i failed after both attempts; continuing with the next minute."
+            fi
 
             if [ "$i" -lt "$iterations" ]; then
               elapsed=$(( $(date +%s) - cycle_start ))
@@ -85,10 +109,20 @@ jobs:
               if [ "$sleep_for" -lt 1 ]; then
                 sleep_for=1
               fi
-              echo "Waiting ${sleep_for}s before the next report..."
+              echo "Waiting ${sleep_for}s before the next report cycle..."
               sleep "$sleep_for"
             fi
           done
+
+          echo "Minute-loop summary: successful=$successful_cycles failed=$failed_cycles"
+
+          # The persistence step below must always run. Mark a warning rather
+          # than aborting the job when only some minute cycles failed.
+          if [ "$failed_cycles" -gt 0 ]; then
+            echo "::warning::$failed_cycles of $iterations report cycles failed, but the loop completed."
+          fi
+
+          exit 0
 
       - name: Persist monitor and report history
         if: always()
